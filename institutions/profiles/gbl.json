@@ -1,0 +1,49 @@
+{
+  "institution_id": "GBL",
+  "name": "Groupe Bruxelles Lambert SA",
+  "entity_type": "investment_holding",
+  "country": "BE",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "partial",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "missing",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "missing",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report total portfolio financed emissions",
+      "compliance_score": 37.5,
+      "maturity_classification": {
+        "level": "1-2",
+        "label": "Initial / Developing",
+        "score": 37.5
+      }
+    }
+  }
+}

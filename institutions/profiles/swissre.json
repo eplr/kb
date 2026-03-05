@@ -1,0 +1,51 @@
+{
+  "institution_id": "SWISSRE",
+  "name": "Swiss Re AG",
+  "entity_type": "reinsurer",
+  "country": "CH",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 10.1,
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 3,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "missing",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "partial",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Extend Part C insurance-associated emissions",
+      "compliance_score": 81.25,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 81.25
+      }
+    }
+  }
+}

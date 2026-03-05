@@ -1,0 +1,22 @@
+{
+  "chunk_id": "pcaf_012",
+  "standard_id": "pcaf",
+  "section": "gap_analysis",
+  "topic": "Gap Analysis Framework",
+  "language": "en",
+  "content": "Gap analysis identifies the differences between an institution's current PCAF implementation and full compliance requirements. Gaps are classified into four priority levels based on score and materiality: Critical gaps (score 0-1 with high materiality) require immediate remediation within 0-3 months — examples include no PCAF methodology adoption or no financed emissions reporting. High-priority gaps (score 0-1 with medium materiality) require remediation within 3-6 months — examples include missing data quality scores or no attribution methodology documentation. Medium gaps (score 2) should be addressed within 6-12 months — examples include partial asset class coverage or basic intensity metrics. Low-priority gaps (score 3+) represent continuous improvement opportunities over 12-24 months. The gap analysis framework considers entity-type-specific materiality: for banks, Part A and Part B are most material; for insurers, Parts A and C are equally material; for asset managers, Part A is the sole focus. Common gap patterns include: institutions that are PCAF signatories but lack quantified emissions disclosure, institutions with good coverage of 2-3 asset classes but missing the rest, and institutions that report emissions but without data quality scoring.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "gap analysis",
+      "priority",
+      "materiality",
+      "compliance gaps",
+      "remediation"
+    ]
+  }
+}

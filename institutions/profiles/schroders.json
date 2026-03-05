@@ -1,0 +1,49 @@
+{
+  "institution_id": "SCHRODERS",
+  "name": "Schroders PLC",
+  "entity_type": "asset_manager",
+  "country": "UK",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 18.5,
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "missing",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Extend coverage to private assets",
+      "compliance_score": 60.0,
+      "maturity_classification": {
+        "level": "3-4",
+        "label": "Defined / Advanced",
+        "score": 60.0
+      }
+    }
+  }
+}

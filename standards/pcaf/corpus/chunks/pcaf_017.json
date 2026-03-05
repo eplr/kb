@@ -1,0 +1,21 @@
+{
+  "chunk_id": "pcaf_017",
+  "standard_id": "pcaf",
+  "section": "intensity_metrics",
+  "topic": "Intensity Metrics and Benchmarking",
+  "language": "en",
+  "content": "PCAF recommends reporting both absolute financed emissions and intensity metrics for meaningful comparison and target tracking. Key intensity metrics include: Economic Carbon Intensity (ECI): tCO2e per EUR million invested. This is the primary PCAF intensity metric, enabling comparison across asset classes and institutions. Calculated as total financed emissions divided by total outstanding amount. Weighted Average Carbon Intensity (WACI): Portfolio-weighted average of investee carbon intensities (tCO2e per EUR million revenue). Primarily used for listed equity and corporate bonds. Enables sector-level analysis and is aligned with TCFD recommendations. Physical Carbon Intensity: Used for specific asset classes — tCO2e per m² for real estate, gCO2e per km for motor vehicles. Enables comparison with physical benchmarks and building/vehicle efficiency standards. Financed Emissions per EVIC: For listed portfolios, normalizing by EVIC enables comparison independent of portfolio size. Benchmarking considerations: Intensity metrics should be compared within peer groups (same entity type, same geography, similar portfolio composition). Year-over-year trends in intensity are often more informative than absolute levels. Institutions should report both intensity improvement and absolute emissions changes, as portfolio growth can increase absolute emissions even while intensity improves.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "intensity metrics",
+      "ECI",
+      "WACI",
+      "benchmarking",
+      "carbon intensity",
+      "TCFD"
+    ]
+  }
+}

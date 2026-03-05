@@ -1,0 +1,51 @@
+{
+  "institution_id": "AMUNDI",
+  "name": "Amundi SA",
+  "entity_type": "asset_manager",
+  "country": "FR",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": false,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "missing",
+        "B": "N/A",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "missing",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "partial",
+        "commercial_real_estate": "partial",
+        "residential_mortgages": "partial",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "missing",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": null,
+      "critical_gaps": [
+        "CRITICAL: No PCAF methodology or financed emissions reported"
+      ],
+      "recommendation": "Priority 1: Adopt PCAF methodology and calculate financed emissions",
+      "compliance_score": 6.25,
+      "maturity_classification": {
+        "level": "0-1",
+        "label": "Not Started / Initial",
+        "score": 6.25
+      }
+    }
+  }
+}

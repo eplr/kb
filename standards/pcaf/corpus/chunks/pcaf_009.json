@@ -1,0 +1,24 @@
+{
+  "chunk_id": "pcaf_009",
+  "standard_id": "pcaf",
+  "section": "data_quality",
+  "topic": "Data Quality Score Methodology",
+  "language": "en",
+  "content": "The PCAF Data Quality Score (DQS) is a 5-level hierarchy that rates the quality and reliability of emissions data used in financed emissions calculations. The scale runs from 1 (best) to 5 (worst): Score 1 (Verified): Emissions data reported by the borrower/investee and verified by an independent third party. This is the gold standard and typically comes from audited sustainability reports or CDP submissions with limited/reasonable assurance. Score 2 (Audited): Emissions data reported by the borrower/investee but with limited disclosure or no independent verification. The data comes directly from the company but lacks external assurance. Score 3 (Primary): Physical activity data (e.g., energy consumption in kWh, fuel consumption in liters) from the borrower/investee, converted to emissions using standard emission factors. The data is primary but requires conversion. Score 4 (Estimated): Estimated physical activity data using proxies or models, such as floor area and building type for real estate, or sector-average energy intensity. Score 5 (Proxy): Economic activity data such as revenue, assets, or number of employees used with sector-average emission factors to estimate emissions. This is the lowest quality but often the only option for SME lending. PCAF recommends that institutions track their portfolio-weighted DQS and set targets for improvement over time.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "data quality score",
+      "DQS",
+      "verified",
+      "audited",
+      "primary",
+      "estimated",
+      "proxy"
+    ]
+  }
+}

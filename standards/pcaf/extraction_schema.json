@@ -1,0 +1,282 @@
+{
+  "standard_id": "pcaf",
+  "version": "2024",
+  "description": "Schema defining data points to extract from sustainability reports for PCAF compliance assessment",
+  "fields": {
+    "institution_metadata": {
+      "institution_name": {
+        "type": "string",
+        "required": true,
+        "description": "Legal name of the financial institution",
+        "expected_format": "Free text",
+        "validation_rules": ["non_empty"]
+      },
+      "entity_type": {
+        "type": "enum",
+        "required": true,
+        "description": "Type of financial institution",
+        "expected_format": "One of: insurer, bank, asset_manager, reinsurer, bancassurance, exchange, investment_holding",
+        "validation_rules": ["valid_entity_type"]
+      },
+      "reporting_year": {
+        "type": "integer",
+        "required": true,
+        "description": "Fiscal year of the sustainability report",
+        "expected_format": "YYYY",
+        "validation_rules": ["range:2018:2026"]
+      },
+      "pcaf_mentioned": {
+        "type": "boolean",
+        "required": true,
+        "description": "Whether the PCAF standard is explicitly mentioned in the report",
+        "expected_format": "true/false",
+        "validation_rules": ["boolean"]
+      },
+      "pcaf_signatory": {
+        "type": "boolean",
+        "required": true,
+        "description": "Whether the institution identifies as a PCAF signatory or committed member",
+        "expected_format": "true/false",
+        "validation_rules": ["boolean"]
+      }
+    },
+    "operational_emissions": {
+      "scope1": {
+        "type": "number",
+        "required": false,
+        "description": "Scope 1 direct operational GHG emissions",
+        "expected_format": "Numeric value in tCO2e",
+        "validation_rules": ["non_negative", "unit_check:tCO2e"]
+      },
+      "scope2_market": {
+        "type": "number",
+        "required": false,
+        "description": "Scope 2 market-based indirect emissions",
+        "expected_format": "Numeric value in tCO2e",
+        "validation_rules": ["non_negative", "unit_check:tCO2e"]
+      },
+      "scope2_location": {
+        "type": "number",
+        "required": false,
+        "description": "Scope 2 location-based indirect emissions",
+        "expected_format": "Numeric value in tCO2e",
+        "validation_rules": ["non_negative", "unit_check:tCO2e"]
+      },
+      "scope3_total": {
+        "type": "number",
+        "required": false,
+        "description": "Total Scope 3 emissions including financed emissions",
+        "expected_format": "Numeric value in tCO2e or MtCO2e",
+        "validation_rules": ["non_negative"]
+      }
+    },
+    "financed_emissions": {
+      "total_value": {
+        "type": "number",
+        "required": true,
+        "description": "Total financed emissions (PCAF Part A)",
+        "expected_format": "Numeric value — may be range (e.g. '87-161')",
+        "validation_rules": ["non_negative_or_range"]
+      },
+      "unit": {
+        "type": "enum",
+        "required": true,
+        "description": "Unit of financed emissions measurement",
+        "expected_format": "One of: tCO2e, MtCO2e, ktCO2e, unknown",
+        "validation_rules": ["valid_unit"]
+      },
+      "methodology": {
+        "type": "string",
+        "required": false,
+        "description": "Description of the attribution methodology used",
+        "expected_format": "Free text",
+        "validation_rules": []
+      },
+      "base_year": {
+        "type": "integer",
+        "required": false,
+        "description": "Base year for financed emissions calculation",
+        "expected_format": "YYYY",
+        "validation_rules": ["range:2015:2026"]
+      }
+    },
+    "part_status": {
+      "part_a": {
+        "type": "enum",
+        "required": true,
+        "description": "Status of Part A (Financed Emissions) reporting",
+        "expected_format": "One of: reported, partial, missing",
+        "validation_rules": ["valid_status"]
+      },
+      "part_b": {
+        "type": "enum",
+        "required": true,
+        "description": "Status of Part B (Facilitated Emissions) reporting",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "part_c": {
+        "type": "enum",
+        "required": true,
+        "description": "Status of Part C (Insurance-Associated Emissions) reporting",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      }
+    },
+    "data_quality": {
+      "dqs_weighted_average": {
+        "type": "number",
+        "required": false,
+        "description": "Weighted average Data Quality Score across the portfolio",
+        "expected_format": "Numeric 1-5 (may be decimal, e.g. 2.3)",
+        "validation_rules": ["range:1:5"]
+      },
+      "dqs_by_asset_class": {
+        "type": "object",
+        "required": false,
+        "description": "Data Quality Score broken down by asset class",
+        "expected_format": "Object mapping asset_class_id to DQS value (1-5)",
+        "validation_rules": ["valid_asset_class_keys", "range_values:1:5"]
+      }
+    },
+    "asset_class_coverage": {
+      "listed_equity_corporate_bonds": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for listed equity and corporate bonds",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "business_loans_unlisted_equity": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for business loans and unlisted equity",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "project_finance": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for project finance",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "commercial_real_estate": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for commercial real estate",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "residential_mortgages": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for residential mortgages",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "motor_vehicle_loans": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for motor vehicle loans",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "use_of_proceeds": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for use of proceeds instruments",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "securitized_structured": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for securitized and structured products",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "sovereign_debt": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for sovereign debt",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "sub_sovereign_debt": {
+        "type": "enum",
+        "required": true,
+        "description": "Coverage status for sub-sovereign debt",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      }
+    },
+    "part_b_coverage": {
+      "capital_markets": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage status for capital markets issuance facilitation",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "advisory_services": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage status for advisory services facilitation",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      }
+    },
+    "part_c_coverage": {
+      "insurance_underwriting": {
+        "type": "enum",
+        "required": false,
+        "description": "Overall coverage status for insurance underwriting emissions",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "commercial_lines": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage for commercial lines insurance",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "personal_motor": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage for personal motor insurance lines",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "project_insurance": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage for project insurance",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      },
+      "treaty_reinsurance": {
+        "type": "enum",
+        "required": false,
+        "description": "Coverage for treaty reinsurance",
+        "expected_format": "One of: reported, partial, missing, N/A",
+        "validation_rules": ["valid_status_with_na"]
+      }
+    }
+  },
+  "validation_rules_definitions": {
+    "non_empty": "Value must not be null or empty string",
+    "boolean": "Value must be true or false",
+    "non_negative": "Numeric value must be >= 0",
+    "non_negative_or_range": "Numeric value >= 0, or a string range like '87-161'",
+    "range": "Value must fall within specified min:max range",
+    "range_values": "All values in the object must fall within specified range",
+    "valid_entity_type": "Must match a defined entity type in common/entity_types.json",
+    "valid_status": "Must be one of: reported, partial, missing",
+    "valid_status_with_na": "Must be one of: reported, partial, missing, N/A",
+    "valid_unit": "Must be one of: tCO2e, MtCO2e, ktCO2e, unknown",
+    "valid_asset_class_keys": "Keys must match PCAF asset class IDs from standard.json",
+    "unit_check": "Value should be reported in the specified unit"
+  }
+}

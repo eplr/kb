@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_002",
+  "standard_id": "pcaf",
+  "section": "part_a_overview",
+  "topic": "Part A — Financed Emissions Overview",
+  "language": "en",
+  "content": "PCAF Part A addresses financed emissions — the GHG emissions attributable to loans and investments made by financial institutions. This is the most broadly applicable part of the PCAF standard, relevant to all types of financial institutions including banks, insurers, asset managers, and pension funds. Part A defines 10 asset classes for which financed emissions must be calculated: (1) Listed equity and corporate bonds, (2) Business loans and unlisted equity, (3) Project finance, (4) Commercial real estate, (5) Residential mortgages, (6) Motor vehicle loans, (7) Use of proceeds, (8) Securitized and structured products, (9) Sovereign debt, and (10) Sub-sovereign debt. For each asset class, PCAF provides a specific attribution methodology that determines how much of an investee's or borrower's emissions should be attributed to the financial institution. The general formula is: Financed Emissions = Attribution Factor × Borrower/Investee Emissions. The attribution factor is typically calculated as the outstanding amount divided by the total equity plus debt (for unlisted) or EVIC (for listed companies).",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "Part A",
+      "financed emissions",
+      "asset classes",
+      "attribution factor",
+      "EVIC"
+    ]
+  }
+}

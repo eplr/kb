@@ -1,0 +1,51 @@
+{
+  "institution_id": "LEGALGENERAL",
+  "name": "Legal & General Group PLC",
+  "entity_type": "insurer",
+  "country": "UK",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 2,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "partial",
+        "project_finance": "reported",
+        "commercial_real_estate": "partial",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "missing",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "missing"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report absolute financed emissions alongside intensity",
+      "compliance_score": 62.5,
+      "maturity_classification": {
+        "level": "3-4",
+        "label": "Defined / Advanced",
+        "score": 62.5
+      }
+    }
+  }
+}

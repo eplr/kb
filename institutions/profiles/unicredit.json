@@ -1,0 +1,52 @@
+{
+  "institution_id": "UNICREDIT",
+  "name": "UniCredit SpA",
+  "entity_type": "bank",
+  "country": "IT",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 10.2,
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "partial",
+        "C": "N/A"
+      },
+      "dqs": 5,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "partial",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "reported",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "reported",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "reported"
+      },
+      "part_b_coverage": {
+        "capital_markets": "reported",
+        "advisory_services": "reported"
+      },
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Improve DQS from 5 to target 3",
+      "compliance_score": 81.25,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 81.25
+      }
+    }
+  }
+}

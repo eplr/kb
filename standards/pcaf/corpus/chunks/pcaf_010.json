@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_010",
+  "standard_id": "pcaf",
+  "section": "attribution",
+  "topic": "Attribution Methodology",
+  "language": "en",
+  "content": "PCAF's attribution methodology determines how much of a borrower's or investee's total emissions are allocated to the financial institution. The core principle is proportionality: the institution's share of emissions corresponds to its financial exposure relative to the total financing of the entity or project. For listed equity and corporate bonds, the attribution factor is: Outstanding Amount / EVIC (Enterprise Value Including Cash). EVIC includes market capitalization, total debt, preferred stock, and minority interest. For business loans and unlisted equity, the factor is: Outstanding Amount / (Total Equity + Debt), based on the company's balance sheet. For real estate (commercial and residential), the factor is: Outstanding Amount / Property Value at Origination. For project finance, the factor is: Outstanding Amount / Total Project Cost. For sovereign debt, the factor is: Holdings / Total Government Debt (or PPP-adjusted GDP). Attribution factors are recalculated annually using the most recent financial data. This means financed emissions can change due to both changes in investee emissions and changes in the institution's financial exposure. PCAF acknowledges that double counting occurs across institutions (multiple lenders to the same company each attribute a share of emissions) and recommends transparency in methodology rather than attempting to eliminate double counting.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "attribution methodology",
+      "attribution factor",
+      "EVIC",
+      "proportionality",
+      "double counting"
+    ]
+  }
+}

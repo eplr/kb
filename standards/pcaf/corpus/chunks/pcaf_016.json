@@ -1,0 +1,22 @@
+{
+  "chunk_id": "pcaf_016",
+  "standard_id": "pcaf",
+  "section": "recommendations",
+  "topic": "Recommendations Framework",
+  "language": "en",
+  "content": "The PCAF compliance recommendations follow a priority-based framework tailored to entity type and current maturity level. Priority 1 (Critical): For institutions with no PCAF adoption or no financed emissions reporting. Recommended actions: join PCAF as a signatory, appoint a PCAF implementation lead, begin with the 2-3 largest asset classes by exposure, use proxy data (DQS 5) initially and plan for improvement. Priority 2 (High): For institutions with partial coverage that need to expand. Recommended actions: extend coverage to additional asset classes, report aggregate financed emissions totals, begin DQS tracking, establish data collection processes with key investees. Priority 3 (Advanced): For institutions with broad coverage seeking to optimize. Recommended actions: improve DQS scores through enhanced data collection, extend scope coverage to include investee Scope 3, implement sector-specific intensity metrics, develop transition targets based on PCAF data. Recommendations are parameterized by entity type: banks should prioritize Part B implementation alongside Part A expansion; insurers should develop Part C methodology in parallel; asset managers should focus on depth of coverage within Part A. Each recommendation includes a suggested timeline and expected outcome.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "recommendations",
+      "priority",
+      "implementation",
+      "roadmap",
+      "improvement"
+    ]
+  }
+}

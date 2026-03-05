@@ -1,0 +1,414 @@
+[
+  {
+    "chunk_id": "pcaf_001",
+    "standard_id": "pcaf",
+    "section": "overview",
+    "topic": "PCAF Standard Overview",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "PCAF",
+        "overview",
+        "GHG Protocol",
+        "Category 15",
+        "financed emissions",
+        "TCFD"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_002",
+    "standard_id": "pcaf",
+    "section": "part_a_overview",
+    "topic": "Part A — Financed Emissions Overview",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "Part A",
+        "financed emissions",
+        "asset classes",
+        "attribution factor",
+        "EVIC"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_003",
+    "standard_id": "pcaf",
+    "section": "part_a_asset_classes_1",
+    "topic": "Part A Asset Classes — Listed Equity, Corporate Bonds, and Business Loans",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "listed equity",
+        "corporate bonds",
+        "business loans",
+        "unlisted equity",
+        "EVIC",
+        "attribution factor"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_004",
+    "standard_id": "pcaf",
+    "section": "part_a_asset_classes_2",
+    "topic": "Part A Asset Classes — Real Estate, Mortgages, and Motor Vehicles",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "commercial real estate",
+        "residential mortgages",
+        "motor vehicle loans",
+        "EPC",
+        "building emissions"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_005",
+    "standard_id": "pcaf",
+    "section": "part_a_asset_classes_3",
+    "topic": "Part A Asset Classes — Project Finance, Use of Proceeds, Securitized Products, and Sovereign Debt",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "project finance",
+        "use of proceeds",
+        "securitized products",
+        "sovereign debt",
+        "green bonds"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_006",
+    "standard_id": "pcaf",
+    "section": "part_b",
+    "topic": "Part B — Facilitated Emissions",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "B"
+      ],
+      "keywords": [
+        "Part B",
+        "facilitated emissions",
+        "capital markets",
+        "facilitation factor",
+        "underwriting"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_007",
+    "standard_id": "pcaf",
+    "section": "part_c_overview",
+    "topic": "Part C — Insurance-Associated Emissions Overview",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "C"
+      ],
+      "keywords": [
+        "Part C",
+        "insurance emissions",
+        "underwriting",
+        "insurance lines",
+        "attribution factor"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_008",
+    "standard_id": "pcaf",
+    "section": "part_c_insurance_lines",
+    "topic": "Part C — Insurance Lines Detail",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "C"
+      ],
+      "keywords": [
+        "commercial lines",
+        "motor insurance",
+        "project insurance",
+        "treaty reinsurance",
+        "insurance attribution"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_009",
+    "standard_id": "pcaf",
+    "section": "data_quality",
+    "topic": "Data Quality Score Methodology",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "data quality score",
+        "DQS",
+        "verified",
+        "audited",
+        "primary",
+        "estimated",
+        "proxy"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_010",
+    "standard_id": "pcaf",
+    "section": "attribution",
+    "topic": "Attribution Methodology",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "attribution methodology",
+        "attribution factor",
+        "EVIC",
+        "proportionality",
+        "double counting"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_011",
+    "standard_id": "pcaf",
+    "section": "scoring",
+    "topic": "Scoring and Maturity Assessment",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "scoring",
+        "maturity",
+        "criteria",
+        "weighted score",
+        "assessment",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_012",
+    "standard_id": "pcaf",
+    "section": "gap_analysis",
+    "topic": "Gap Analysis Framework",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "gap analysis",
+        "priority",
+        "materiality",
+        "compliance gaps",
+        "remediation"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_013",
+    "standard_id": "pcaf",
+    "section": "scope3_category15",
+    "topic": "Scope 3 Category 15 — Investments Context",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "Scope 3",
+        "Category 15",
+        "investments",
+        "materiality",
+        "financial institutions",
+        "GHG Protocol"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_014",
+    "standard_id": "pcaf",
+    "section": "fi_materiality",
+    "topic": "Materiality for Financial Institutions",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "materiality",
+        "financial institutions",
+        "banks",
+        "insurers",
+        "asset managers",
+        "materiality hierarchy"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_015",
+    "standard_id": "pcaf",
+    "section": "coverage_assessment",
+    "topic": "Coverage Assessment Methodology",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "coverage assessment",
+        "asset class coverage",
+        "portfolio coverage",
+        "reported",
+        "partial",
+        "missing"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_016",
+    "standard_id": "pcaf",
+    "section": "recommendations",
+    "topic": "Recommendations Framework",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "recommendations",
+        "priority",
+        "implementation",
+        "roadmap",
+        "improvement"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_017",
+    "standard_id": "pcaf",
+    "section": "intensity_metrics",
+    "topic": "Intensity Metrics and Benchmarking",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A"
+      ],
+      "keywords": [
+        "intensity metrics",
+        "ECI",
+        "WACI",
+        "benchmarking",
+        "carbon intensity",
+        "TCFD"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_018",
+    "standard_id": "pcaf",
+    "section": "regulatory_context",
+    "topic": "Regulatory Context and CSRD Alignment",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "regulation",
+        "CSRD",
+        "ESRS",
+        "EU Taxonomy",
+        "TCFD",
+        "Basel",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_019",
+    "standard_id": "pcaf",
+    "section": "implementation_challenges",
+    "topic": "Implementation Challenges and Best Practices",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "implementation",
+        "challenges",
+        "data quality",
+        "best practices",
+        "SME",
+        "methodology"
+      ]
+    }
+  },
+  {
+    "chunk_id": "pcaf_020",
+    "standard_id": "pcaf",
+    "section": "alternative_scoring_method",
+    "topic": "Alternative Scoring Methodology (100% Scale)",
+    "language": "en",
+    "metadata": {
+      "pcaf_parts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "keywords": [
+        "alternative scoring",
+        "percentage",
+        "compliance score",
+        "maturity level",
+        "cross-institution"
+      ]
+    }
+  }
+]

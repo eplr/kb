@@ -1,0 +1,51 @@
+{
+  "institution_id": "ZURICH",
+  "name": "Zurich Insurance Group AG",
+  "entity_type": "insurer",
+  "country": "CH",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": 1034,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": "1-5",
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "partial",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "partial",
+        "securitized_structured": "reported",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report total financed emissions in 2025",
+      "compliance_score": 61.25,
+      "maturity_classification": {
+        "level": "3-4",
+        "label": "Defined / Advanced",
+        "score": 61.25
+      }
+    }
+  }
+}

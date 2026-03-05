@@ -1,0 +1,51 @@
+{
+  "institution_id": "AVIVA",
+  "name": "Aviva PLC",
+  "entity_type": "insurer",
+  "country": "UK",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 7.4,
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 1,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "missing",
+        "project_finance": "reported",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "missing",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "partial"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "partial"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Extend coverage to all insurance lines",
+      "compliance_score": 83.75,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 83.75
+      }
+    }
+  }
+}

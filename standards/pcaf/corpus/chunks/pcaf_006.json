@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_006",
+  "standard_id": "pcaf",
+  "section": "part_b",
+  "topic": "Part B — Facilitated Emissions",
+  "language": "en",
+  "content": "PCAF Part B addresses facilitated emissions — GHG emissions associated with capital market activities such as underwriting equity and debt issuances, and providing advisory services. Part B is primarily applicable to investment banks and universal banks with significant capital markets operations. The key concept in Part B is the facilitation factor, which determines the share of an issuer's emissions attributed to the facilitating institution. Unlike Part A's ongoing attribution, Part B uses a time-limited approach: emissions are attributed based on the financial institution's role in the transaction, typically over a defined period (e.g., the year of issuance plus a decay period). The facilitation factor considers the institution's share of the total issuance amount (lead vs. co-manager roles receive different weightings). Part B covers two main categories: capital markets issuances (IPOs, bond issuances, follow-on offerings) and advisory services where the institution plays a significant role in the transaction. Data quality for Part B is often challenging because it requires mapping client emissions to specific transactions and applying appropriate facilitation factors.",
+  "metadata": {
+    "pcaf_parts": [
+      "B"
+    ],
+    "keywords": [
+      "Part B",
+      "facilitated emissions",
+      "capital markets",
+      "facilitation factor",
+      "underwriting"
+    ]
+  }
+}

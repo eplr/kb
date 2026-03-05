@@ -1,0 +1,23 @@
+{
+  "chunk_id": "pcaf_019",
+  "standard_id": "pcaf",
+  "section": "implementation_challenges",
+  "topic": "Implementation Challenges and Best Practices",
+  "language": "en",
+  "content": "Financial institutions face several common challenges when implementing PCAF: Data Availability: Many borrowers and investees, especially SMEs, do not report their emissions. This forces reliance on proxy and estimated data (DQS 4-5). Best practice: Start with available data and set a DQS improvement roadmap; engage with key investees to encourage disclosure. Data Quality Heterogeneity: Different asset classes have very different data quality profiles. Listed equity may achieve DQS 1-2 while SME lending stays at DQS 4-5. Best practice: Report DQS by asset class and set class-specific improvement targets. Methodology Complexity: Each asset class has its own attribution methodology. Best practice: Implement in phases, starting with the most material asset classes, and use specialized PCAF calculation tools or vendors. Temporal Alignment: Emissions data often lags financial exposure data by 1-2 years. Best practice: Use the most recent available emissions data and disclose the temporal lag. Double Counting: Multiple financial institutions attribute emissions from the same investee. PCAF acknowledges this as inherent and recommends transparency. Organizational Integration: PCAF implementation requires collaboration between sustainability, risk, data, and business teams. Best practice: Establish a cross-functional PCAF working group with senior sponsorship.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "implementation",
+      "challenges",
+      "data quality",
+      "best practices",
+      "SME",
+      "methodology"
+    ]
+  }
+}

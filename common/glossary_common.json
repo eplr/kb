@@ -1,0 +1,346 @@
+{
+  "language_pair": [
+    "en",
+    "fr"
+  ],
+  "terms": [
+    {
+      "id": "esg",
+      "term_en": "Environmental, Social, and Governance (ESG)",
+      "term_fr": "Environnemental, Social et Gouvernance (ESG)",
+      "definition_en": "A framework for evaluating a company's performance on environmental stewardship, social responsibility, and corporate governance.",
+      "definition_fr": "Un cadre d'évaluation de la performance d'une entreprise en matière de gestion environnementale, de responsabilité sociale et de gouvernance d'entreprise.",
+      "synonyms_en": [
+        "ESG criteria",
+        "sustainability factors"
+      ],
+      "synonyms_fr": [
+        "critères ESG",
+        "facteurs de durabilité"
+      ]
+    },
+    {
+      "id": "ghg",
+      "term_en": "Greenhouse Gas (GHG)",
+      "term_fr": "Gaz à effet de serre (GES)",
+      "definition_en": "Gases that trap heat in the atmosphere, including CO2, methane (CH4), nitrous oxide (N2O), and fluorinated gases.",
+      "definition_fr": "Gaz qui piègent la chaleur dans l'atmosphère, notamment le CO2, le méthane (CH4), le protoxyde d'azote (N2O) et les gaz fluorés.",
+      "synonyms_en": [
+        "greenhouse gases"
+      ],
+      "synonyms_fr": [
+        "gaz à effet de serre"
+      ]
+    },
+    {
+      "id": "tco2e",
+      "term_en": "Tonnes of CO2 Equivalent (tCO2e)",
+      "term_fr": "Tonnes d'équivalent CO2 (tCO2e)",
+      "definition_en": "Standard unit for measuring GHG emissions, converting all greenhouse gases to their CO2 warming equivalent.",
+      "definition_fr": "Unité standard de mesure des émissions de GES, convertissant tous les gaz à effet de serre en leur équivalent CO2.",
+      "synonyms_en": [
+        "CO2e",
+        "carbon dioxide equivalent"
+      ],
+      "synonyms_fr": [
+        "CO2e",
+        "équivalent dioxyde de carbone"
+      ]
+    },
+    {
+      "id": "scope_1",
+      "term_en": "Scope 1 Emissions",
+      "term_fr": "Émissions de Scope 1",
+      "definition_en": "Direct GHG emissions from sources owned or controlled by the reporting organization.",
+      "definition_fr": "Émissions directes de GES provenant de sources détenues ou contrôlées par l'organisation déclarante.",
+      "synonyms_en": [
+        "direct emissions"
+      ],
+      "synonyms_fr": [
+        "émissions directes"
+      ]
+    },
+    {
+      "id": "scope_2",
+      "term_en": "Scope 2 Emissions",
+      "term_fr": "Émissions de Scope 2",
+      "definition_en": "Indirect GHG emissions from the generation of purchased energy consumed by the organization.",
+      "definition_fr": "Émissions indirectes de GES provenant de la production d'énergie achetée consommée par l'organisation.",
+      "synonyms_en": [
+        "energy indirect emissions"
+      ],
+      "synonyms_fr": [
+        "émissions indirectes liées à l'énergie"
+      ]
+    },
+    {
+      "id": "scope_3",
+      "term_en": "Scope 3 Emissions",
+      "term_fr": "Émissions de Scope 3",
+      "definition_en": "All other indirect GHG emissions occurring in the value chain of the reporting organization, across 15 categories.",
+      "definition_fr": "Toutes les autres émissions indirectes de GES survenant dans la chaîne de valeur de l'organisation déclarante, réparties en 15 catégories.",
+      "synonyms_en": [
+        "value chain emissions"
+      ],
+      "synonyms_fr": [
+        "émissions de la chaîne de valeur"
+      ]
+    },
+    {
+      "id": "tcfd",
+      "term_en": "Task Force on Climate-related Financial Disclosures (TCFD)",
+      "term_fr": "Groupe de travail sur les divulgations financières liées au climat (TCFD)",
+      "definition_en": "An industry-led initiative providing a framework for companies to disclose climate-related financial risks and opportunities.",
+      "definition_fr": "Une initiative sectorielle fournissant un cadre pour que les entreprises divulguent les risques et opportunités financiers liés au climat.",
+      "synonyms_en": [
+        "TCFD framework"
+      ],
+      "synonyms_fr": [
+        "cadre TCFD"
+      ]
+    },
+    {
+      "id": "eu_taxonomy",
+      "term_en": "EU Taxonomy",
+      "term_fr": "Taxonomie de l'UE",
+      "definition_en": "The EU classification system establishing criteria for determining whether an economic activity qualifies as environmentally sustainable.",
+      "definition_fr": "Le système de classification de l'UE établissant les critères pour déterminer si une activité économique est qualifiée d'écologiquement durable.",
+      "synonyms_en": [
+        "EU green taxonomy"
+      ],
+      "synonyms_fr": [
+        "taxonomie verte de l'UE"
+      ]
+    },
+    {
+      "id": "csrd",
+      "term_en": "Corporate Sustainability Reporting Directive (CSRD)",
+      "term_fr": "Directive sur la publication d'informations en matière de durabilité (CSRD)",
+      "definition_en": "EU directive requiring large companies to disclose information on sustainability risks, impacts, and opportunities using standardized reporting.",
+      "definition_fr": "Directive européenne exigeant des grandes entreprises qu'elles publient des informations sur les risques, impacts et opportunités de durabilité selon un reporting standardisé.",
+      "synonyms_en": [
+        "EU sustainability reporting"
+      ],
+      "synonyms_fr": [
+        "reporting de durabilité UE"
+      ]
+    },
+    {
+      "id": "sustainability_report",
+      "term_en": "Sustainability Report",
+      "term_fr": "Rapport de durabilité",
+      "definition_en": "A corporate report disclosing the organization's environmental, social, and governance performance, including GHG emissions data.",
+      "definition_fr": "Un rapport d'entreprise divulguant la performance environnementale, sociale et de gouvernance de l'organisation, y compris les données d'émissions de GES.",
+      "synonyms_en": [
+        "ESG report",
+        "CSR report",
+        "annual sustainability disclosure"
+      ],
+      "synonyms_fr": [
+        "rapport ESG",
+        "rapport RSE",
+        "divulgation annuelle de durabilité"
+      ]
+    },
+    {
+      "id": "double_materiality",
+      "term_en": "Double Materiality",
+      "term_fr": "Double matérialité",
+      "definition_en": "The principle that companies should report on both how sustainability issues affect their business (financial materiality) and how their business impacts society and the environment (impact materiality).",
+      "definition_fr": "Le principe selon lequel les entreprises doivent rendre compte à la fois de l'impact des questions de durabilité sur leur activité (matérialité financière) et de l'impact de leur activité sur la société et l'environnement (matérialité d'impact).",
+      "synonyms_en": [
+        "dual materiality"
+      ],
+      "synonyms_fr": [
+        "matérialité double"
+      ]
+    },
+    {
+      "id": "carbon_footprint",
+      "term_en": "Carbon Footprint",
+      "term_fr": "Empreinte carbone",
+      "definition_en": "The total amount of greenhouse gases produced directly and indirectly by an activity, organization, or product.",
+      "definition_fr": "La quantité totale de gaz à effet de serre produits directement et indirectement par une activité, une organisation ou un produit.",
+      "synonyms_en": [
+        "GHG footprint"
+      ],
+      "synonyms_fr": [
+        "empreinte GES"
+      ]
+    },
+    {
+      "id": "paris_agreement",
+      "term_en": "Paris Agreement",
+      "term_fr": "Accord de Paris",
+      "definition_en": "The 2015 international treaty on climate change, aiming to limit global warming to well below 2°C, preferably 1.5°C, compared to pre-industrial levels.",
+      "definition_fr": "Le traité international de 2015 sur le changement climatique, visant à limiter le réchauffement planétaire à bien en dessous de 2°C, de préférence 1,5°C, par rapport aux niveaux préindustriels.",
+      "synonyms_en": [
+        "COP21 agreement"
+      ],
+      "synonyms_fr": [
+        "accord COP21"
+      ]
+    },
+    {
+      "id": "net_zero",
+      "term_en": "Net Zero",
+      "term_fr": "Zéro net",
+      "definition_en": "A state where the amount of GHG emitted equals the amount removed from the atmosphere.",
+      "definition_fr": "Un état où la quantité de GES émis est égale à la quantité retirée de l'atmosphère.",
+      "synonyms_en": [
+        "carbon neutral",
+        "climate neutral"
+      ],
+      "synonyms_fr": [
+        "neutralité carbone",
+        "neutralité climatique"
+      ]
+    },
+    {
+      "id": "sbti",
+      "term_en": "Science Based Targets initiative (SBTi)",
+      "term_fr": "Initiative Science Based Targets (SBTi)",
+      "definition_en": "An organization that validates corporate emissions reduction targets to ensure they are aligned with the latest climate science.",
+      "definition_fr": "Une organisation qui valide les objectifs de réduction des émissions des entreprises pour s'assurer qu'ils sont alignés avec la science climatique la plus récente.",
+      "synonyms_en": [
+        "SBTi"
+      ],
+      "synonyms_fr": [
+        "SBTi"
+      ]
+    },
+    {
+      "id": "green_bond",
+      "term_en": "Green Bond",
+      "term_fr": "Obligation verte",
+      "definition_en": "A fixed-income instrument where proceeds are exclusively applied to finance eligible environmental or climate projects.",
+      "definition_fr": "Un instrument à revenu fixe dont le produit est exclusivement affecté au financement de projets environnementaux ou climatiques éligibles.",
+      "synonyms_en": [
+        "climate bond",
+        "sustainable bond"
+      ],
+      "synonyms_fr": [
+        "obligation climatique",
+        "obligation durable"
+      ]
+    },
+    {
+      "id": "greenwashing",
+      "term_en": "Greenwashing",
+      "term_fr": "Écoblanchiment",
+      "definition_en": "The practice of making misleading claims about the environmental benefits of a product, service, or company practice.",
+      "definition_fr": "La pratique consistant à faire des déclarations trompeuses sur les avantages environnementaux d'un produit, d'un service ou d'une pratique d'entreprise.",
+      "synonyms_en": [
+        "green sheen"
+      ],
+      "synonyms_fr": [
+        "verdissement"
+      ]
+    },
+    {
+      "id": "climate_risk",
+      "term_en": "Climate Risk",
+      "term_fr": "Risque climatique",
+      "definition_en": "The potential for climate change to cause financial losses, including both physical risks and transition risks.",
+      "definition_fr": "Le potentiel du changement climatique à causer des pertes financières, incluant à la fois les risques physiques et les risques de transition.",
+      "synonyms_en": [
+        "climate-related financial risk"
+      ],
+      "synonyms_fr": [
+        "risque financier lié au climat"
+      ]
+    },
+    {
+      "id": "esrs",
+      "term_en": "European Sustainability Reporting Standards (ESRS)",
+      "term_fr": "Normes européennes de reporting de durabilité (ESRS)",
+      "definition_en": "The technical reporting standards developed under the CSRD, specifying what sustainability information companies must disclose.",
+      "definition_fr": "Les normes techniques de reporting développées dans le cadre de la CSRD, spécifiant quelles informations de durabilité les entreprises doivent divulguer.",
+      "synonyms_en": [
+        "EFRAG standards"
+      ],
+      "synonyms_fr": [
+        "normes EFRAG"
+      ]
+    },
+    {
+      "id": "vsme",
+      "term_en": "Voluntary SME Standard (VSME)",
+      "term_fr": "Norme volontaire PME (VSME)",
+      "definition_en": "A simplified sustainability reporting standard designed for small and medium enterprises that are not directly subject to CSRD.",
+      "definition_fr": "Une norme simplifiée de reporting de durabilité conçue pour les petites et moyennes entreprises qui ne sont pas directement soumises à la CSRD.",
+      "synonyms_en": [
+        "SME sustainability standard"
+      ],
+      "synonyms_fr": [
+        "norme de durabilité PME"
+      ]
+    },
+    {
+      "id": "cdp",
+      "term_en": "CDP (formerly Carbon Disclosure Project)",
+      "term_fr": "CDP (anciennement Carbon Disclosure Project)",
+      "definition_en": "A global environmental disclosure system where companies report their environmental impact data.",
+      "definition_fr": "Un système mondial de divulgation environnementale où les entreprises rapportent leurs données d'impact environnemental.",
+      "synonyms_en": [
+        "Carbon Disclosure Project"
+      ],
+      "synonyms_fr": [
+        "Projet de divulgation carbone"
+      ]
+    },
+    {
+      "id": "gri",
+      "term_en": "Global Reporting Initiative (GRI)",
+      "term_fr": "Initiative mondiale de reporting (GRI)",
+      "definition_en": "An independent international organization that provides the world's most widely used standards for sustainability reporting.",
+      "definition_fr": "Une organisation internationale indépendante qui fournit les normes de reporting de durabilité les plus utilisées au monde.",
+      "synonyms_en": [
+        "GRI Standards"
+      ],
+      "synonyms_fr": [
+        "Normes GRI"
+      ]
+    },
+    {
+      "id": "sfdr",
+      "term_en": "Sustainable Finance Disclosure Regulation (SFDR)",
+      "term_fr": "Règlement sur la publication d'informations en matière de finance durable (SFDR)",
+      "definition_en": "EU regulation requiring financial market participants to disclose sustainability risks and adverse impacts of their investment decisions.",
+      "definition_fr": "Règlement européen exigeant des acteurs des marchés financiers qu'ils publient les risques de durabilité et les impacts négatifs de leurs décisions d'investissement.",
+      "synonyms_en": [
+        "EU SFDR"
+      ],
+      "synonyms_fr": [
+        "SFDR UE"
+      ]
+    },
+    {
+      "id": "principal_adverse_impact",
+      "term_en": "Principal Adverse Impact (PAI)",
+      "term_fr": "Principales incidences négatives (PAI)",
+      "definition_en": "Under SFDR, the most significant negative effects of investment decisions on sustainability factors.",
+      "definition_fr": "Au titre du SFDR, les effets négatifs les plus significatifs des décisions d'investissement sur les facteurs de durabilité.",
+      "synonyms_en": [
+        "PAI indicators"
+      ],
+      "synonyms_fr": [
+        "indicateurs PAI"
+      ]
+    },
+    {
+      "id": "decarbonization",
+      "term_en": "Decarbonization",
+      "term_fr": "Décarbonation",
+      "definition_en": "The process of reducing carbon emissions from energy systems, industrial processes, and economic activities.",
+      "definition_fr": "Le processus de réduction des émissions de carbone des systèmes énergétiques, des processus industriels et des activités économiques.",
+      "synonyms_en": [
+        "decarbonisation",
+        "carbon reduction"
+      ],
+      "synonyms_fr": [
+        "réduction des émissions de carbone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "institution_id": "ASRNEDERLAND",
+  "name": "ASR Nederland NV",
+  "entity_type": "insurer",
+  "country": "NL",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 5,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "partial",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "partial",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "reported",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "partial"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Continue improving data quality across asset classes",
+      "compliance_score": 75.0,
+      "maturity_classification": {
+        "level": "3-4",
+        "label": "Defined / Advanced",
+        "score": 75.0
+      }
+    }
+  }
+}

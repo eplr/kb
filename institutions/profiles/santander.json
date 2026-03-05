@@ -1,0 +1,52 @@
+{
+  "institution_id": "SANTANDER",
+  "name": "Banco Santander SA",
+  "entity_type": "bank",
+  "country": "ES",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": 35503,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 9.83,
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "partial",
+        "C": "N/A"
+      },
+      "dqs": 1,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "reported",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "reported",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "reported",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": {
+        "capital_markets": "reported",
+        "advisory_services": "reported"
+      },
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Continue sector-by-sector PCAF implementation",
+      "compliance_score": 88.75,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 88.75
+      }
+    }
+  }
+}

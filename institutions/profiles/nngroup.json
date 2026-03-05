@@ -1,0 +1,51 @@
+{
+  "institution_id": "NNGROUP",
+  "name": "NN Group NV",
+  "entity_type": "insurer",
+  "country": "NL",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 1,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "reported",
+        "use_of_proceeds": "reported",
+        "securitized_structured": "partial",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report total absolute financed emissions",
+      "compliance_score": 66.25,
+      "maturity_classification": {
+        "level": "3-4",
+        "label": "Defined / Advanced",
+        "score": 66.25
+      }
+    }
+  }
+}

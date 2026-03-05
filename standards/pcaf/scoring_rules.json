@@ -1,0 +1,286 @@
+{
+  "standard_id": "pcaf",
+  "criteria": {
+    "part_a": [
+      {
+        "id": "asset_class_coverage",
+        "name": "Asset Class Coverage",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No asset classes covered",
+          "1": "1-2 asset classes covered (10-20% of portfolio)",
+          "2": "3-4 asset classes covered (30-40% of portfolio)",
+          "3": "5-6 asset classes covered (50-60% of portfolio)",
+          "4": "7-9 asset classes covered (70-90% of portfolio)",
+          "5": "All 10 asset classes covered (100% of portfolio)"
+        }
+      },
+      {
+        "id": "data_quality_score",
+        "name": "Data Quality Score",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No data quality scoring applied",
+          "1": "Data quality score of 4-5 (proxy/estimated data only)",
+          "2": "Data quality score of 3-4 (mix of estimated and primary data)",
+          "3": "Data quality score of 2-3 (primarily reported data with gaps)",
+          "4": "Data quality score of 1-2 (mostly verified/audited data)",
+          "5": "Data quality score below 2 with documented improvement plan"
+        }
+      },
+      {
+        "id": "attribution_methodology",
+        "name": "Attribution Methodology",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No attribution methodology in place",
+          "1": "Basic estimation methods without formal methodology",
+          "2": "Documented methodology with limited asset class application",
+          "3": "PCAF-aligned methodology applied to multiple asset classes",
+          "4": "Full PCAF methodology with annual recalculation across all classes",
+          "5": "PCAF methodology plus sector-specific enhancements and third-party validation"
+        }
+      },
+      {
+        "id": "scope_coverage",
+        "name": "Scope Coverage",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No scope coverage reported",
+          "1": "Scope 1 emissions only",
+          "2": "Scope 1 and Scope 2 (location-based)",
+          "3": "Scope 1 and Scope 2 (market-based)",
+          "4": "Scope 1, Scope 2, and material Scope 3 categories",
+          "5": "Scope 1, Scope 2, and full Scope 3 with avoided emissions tracking"
+        }
+      },
+      {
+        "id": "portfolio_coverage",
+        "name": "Portfolio Coverage",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No portfolio coverage",
+          "1": "Less than 40% of portfolio covered",
+          "2": "40-60% of portfolio covered",
+          "3": "60-80% of portfolio covered",
+          "4": "80-95% of portfolio covered",
+          "5": "Greater than 95% of portfolio covered"
+        }
+      },
+      {
+        "id": "sovereign_debt_inclusion",
+        "name": "Sovereign Debt Inclusion",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "Sovereign debt emissions not tracked",
+          "1": "Sovereign debt tracked but not disclosed",
+          "2": "Sovereign debt disclosed separately from portfolio totals",
+          "3": "Sovereign debt disclosed with clear methodology explanation",
+          "4": "Sovereign debt included in total financed emissions calculation",
+          "5": "Sovereign debt fully integrated with production and consumption-based approaches"
+        }
+      },
+      {
+        "id": "temporal_coverage",
+        "name": "Temporal Coverage",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No historical emissions data",
+          "1": "Current year emissions only",
+          "2": "2 years of emissions data",
+          "3": "3 years of emissions data",
+          "4": "3+ years with trend analysis",
+          "5": "5+ years with trend analysis and forward-looking projections"
+        }
+      },
+      {
+        "id": "intensity_metrics",
+        "name": "Intensity Metrics",
+        "part": "A",
+        "max_score": 5,
+        "rubric": {
+          "0": "No intensity metrics reported",
+          "1": "Basic intensity per AUM only",
+          "2": "Multiple intensity denominators reported",
+          "3": "PCAF Economic Carbon Intensity (ECI) reported",
+          "4": "Sector-specific intensities (WACI, per EVIC) reported",
+          "5": "Comprehensive intensity metrics with peer benchmarking"
+        }
+      }
+    ],
+    "part_b": [
+      {
+        "id": "capital_markets_activity",
+        "name": "Capital Markets Activity",
+        "part": "B",
+        "max_score": 5,
+        "rubric": {
+          "0": "No tracking of capital markets facilitated emissions",
+          "1": "Volume of issuances tracked only",
+          "2": "Volume and associated emissions estimated",
+          "3": "PCAF facilitation methodology applied",
+          "4": "Comprehensive tracking with data quality assessment",
+          "5": "Full tracking with client engagement and transition planning"
+        }
+      },
+      {
+        "id": "emission_attribution",
+        "name": "Emission Attribution",
+        "part": "B",
+        "max_score": 5,
+        "rubric": {
+          "0": "No emission attribution for facilitated activities",
+          "1": "Simple allocation based on deal share",
+          "2": "Time-based attribution methodology",
+          "3": "PCAF facilitation factor methodology",
+          "4": "Enhanced attribution with impact assessment",
+          "5": "Full lifecycle attribution with avoided emissions tracking"
+        }
+      }
+    ],
+    "part_c": [
+      {
+        "id": "insurance_lines_coverage",
+        "name": "Insurance Lines Coverage",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "No insurance lines covered",
+          "1": "1 insurance line covered",
+          "2": "2 insurance lines covered",
+          "3": "3 insurance lines covered",
+          "4": "All 4 basic insurance lines covered",
+          "5": "All 4 insurance lines with comprehensive sub-line detail"
+        }
+      },
+      {
+        "id": "commercial_lines",
+        "name": "Commercial Lines",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "Commercial lines emissions not tracked",
+          "1": "Scoping exercise initiated",
+          "2": "Pilot calculation for subset of commercial lines",
+          "3": "PCAF methodology applied to major commercial sectors",
+          "4": "Comprehensive coverage with data quality assessment",
+          "5": "Full coverage with risk-weighted emissions and transition metrics"
+        }
+      },
+      {
+        "id": "motor_insurance",
+        "name": "Motor Insurance",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "Motor insurance emissions not tracked",
+          "1": "Scoping exercise initiated",
+          "2": "Basic fleet-level estimation",
+          "3": "PCAF motor insurance methodology applied",
+          "4": "Emissions calculated by vehicle type and fuel",
+          "5": "Full coverage with transition risk assessment and EV tracking"
+        }
+      },
+      {
+        "id": "project_insurance",
+        "name": "Project Insurance",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "Project insurance emissions not tracked",
+          "1": "Scoping exercise initiated",
+          "2": "High-emission project categories only",
+          "3": "PCAF methodology applied above materiality threshold",
+          "4": "All material project insurance covered",
+          "5": "Full coverage with impact assessment and avoided emissions"
+        }
+      },
+      {
+        "id": "treaty_reinsurance",
+        "name": "Treaty Reinsurance",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "Treaty reinsurance emissions not tracked",
+          "1": "Scoping exercise initiated",
+          "2": "Major treaty programs covered",
+          "3": "PCAF methodology applied to material treaties",
+          "4": "Comprehensive treaty coverage",
+          "5": "Full coverage with cedent-level emissions data"
+        }
+      },
+      {
+        "id": "attribution_methodology_c",
+        "name": "Attribution Methodology",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "No attribution methodology for insurance",
+          "1": "Premium-based allocation only",
+          "2": "Insurance-to-value ratio methodology",
+          "3": "PCAF insurance attribution factor applied",
+          "4": "PCAF attribution with risk-adjusted weighting",
+          "5": "Enhanced attribution with loss prevention impact integration"
+        }
+      },
+      {
+        "id": "underwriting_integration",
+        "name": "Underwriting Integration",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "No integration of emissions in underwriting",
+          "1": "Awareness of emissions in underwriting decisions",
+          "2": "Emissions considered for certain high-impact sectors",
+          "3": "Emissions integrated into risk assessment framework",
+          "4": "Emissions-based pricing adjustments implemented",
+          "5": "Full integration with transition planning and engagement"
+        }
+      },
+      {
+        "id": "data_quality_c",
+        "name": "Data Quality",
+        "part": "C",
+        "max_score": 5,
+        "rubric": {
+          "0": "No insurance emissions data available",
+          "1": "Less than 20% of insurance book with emissions data",
+          "2": "20-40% coverage with low quality data",
+          "3": "40-60% coverage with PCAF DQS 3-4",
+          "4": "60-80% coverage with PCAF DQS 2-3",
+          "5": "Greater than 80% coverage with PCAF DQS below 2.5"
+        }
+      }
+    ]
+  },
+  "weighting": {
+    "insurer": {"part_a": 0.5, "part_c": 0.5},
+    "bank": {"part_a": 0.7, "part_b": 0.3},
+    "asset_manager": {"part_a": 1.0},
+    "reinsurer": {"part_a": 0.5, "part_c": 0.5},
+    "bancassurance": {"part_a": 0.4, "part_b": 0.2, "part_c": 0.4},
+    "exchange": {"part_a": 1.0},
+    "investment_holding": {"part_a": 1.0}
+  },
+  "alternative_scoring": {
+    "pcaf_status": {"signatory": 20, "mentioned": 10, "none": 0},
+    "part_a": {"reported": 40, "partial": 20, "missing": 0},
+    "part_b": {"reported": 15, "partial": 7.5, "missing": 0, "na": 0},
+    "part_c": {"reported": 15, "partial": 7.5, "missing": 0, "na": 0},
+    "asset_class_per_class": {"reported": 2.5, "partial": 1.25, "missing": 0}
+  },
+  "maturity_levels": [
+    {"min": 0, "max": 19, "level": "0-1", "label": "Not Started / Initial"},
+    {"min": 20, "max": 39, "level": "1-2", "label": "Initial / Developing"},
+    {"min": 40, "max": 59, "level": "2-3", "label": "Developing / Defined"},
+    {"min": 60, "max": 79, "level": "3-4", "label": "Defined / Advanced"},
+    {"min": 80, "max": 100, "level": "4-5", "label": "Advanced / Leading"}
+  ]
+}

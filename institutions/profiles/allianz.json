@@ -1,0 +1,51 @@
+{
+  "institution_id": "ALLIANZ",
+  "name": "Allianz SE",
+  "entity_type": "insurer",
+  "country": "DE",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": "87-161",
+        "unit": "MtCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": 2,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "reported",
+        "business_loans_unlisted_equity": "partial",
+        "project_finance": "partial",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "partial",
+        "use_of_proceeds": "partial",
+        "securitized_structured": "reported",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "reported"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Reduce uncertainty range in Scope 3 financed emissions",
+      "compliance_score": 87.5,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 87.5
+      }
+    }
+  }
+}

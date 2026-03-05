@@ -1,0 +1,23 @@
+{
+  "chunk_id": "pcaf_015",
+  "standard_id": "pcaf",
+  "section": "coverage_assessment",
+  "topic": "Coverage Assessment Methodology",
+  "language": "en",
+  "content": "Coverage assessment evaluates the breadth and depth of an institution's PCAF implementation across three dimensions: Asset Class Coverage measures how many of the 10 PCAF asset classes have been included in the financed emissions calculation. Full coverage (all 10) receives the highest score. The assessment distinguishes between 'reported' (quantified with methodology), 'partial' (some information but incomplete), and 'missing' (no disclosure). Portfolio Coverage measures the percentage of total portfolio exposure (by value) that is included in the emissions calculation. An institution covering 95%+ of its portfolio achieves the highest score, even if some asset classes are excluded (e.g., if they represent <5% of total exposure). Geographic Coverage is not formally scored but is noted in the assessment — some institutions may cover emissions in certain jurisdictions but not others. Part-Level Coverage assesses the status of each applicable PCAF part: Part A status (reported/partial/missing), Part B status (for banks: reported/partial/missing/N/A), and Part C status (for insurers: reported/partial/missing/N/A). The combination of these coverage dimensions provides a comprehensive view of implementation maturity.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "coverage assessment",
+      "asset class coverage",
+      "portfolio coverage",
+      "reported",
+      "partial",
+      "missing"
+    ]
+  }
+}

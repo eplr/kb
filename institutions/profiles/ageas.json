@@ -1,0 +1,51 @@
+{
+  "institution_id": "AGEAS",
+  "name": "Ageas SA/NV",
+  "entity_type": "insurer",
+  "country": "BE",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "partial"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "partial",
+        "project_finance": "reported",
+        "commercial_real_estate": "missing",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "reported",
+        "sovereign_debt": "partial",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": {
+        "insurance_underwriting": "reported"
+      },
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report total financed emissions with PCAF breakdown",
+      "compliance_score": 58.75,
+      "maturity_classification": {
+        "level": "2-3",
+        "label": "Developing / Defined",
+        "score": 58.75
+      }
+    }
+  }
+}

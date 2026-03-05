@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_005",
+  "standard_id": "pcaf",
+  "section": "part_a_asset_classes_3",
+  "topic": "Part A Asset Classes — Project Finance, Use of Proceeds, Securitized Products, and Sovereign Debt",
+  "language": "en",
+  "content": "Project Finance: For project-specific financing, emissions are attributed based on the financial institution's share of total project financing. Project-level emissions data is often available for large infrastructure projects, enabling higher data quality. Use of Proceeds: For labeled instruments (green bonds, sustainability-linked bonds), emissions are calculated based on the specific projects or activities funded. This asset class allows for tracking of both financed emissions and potentially avoided emissions. Securitized and Structured Products: The look-through approach is recommended, where the financial institution calculates emissions based on the underlying assets in the securitization pool. When look-through is not possible, proxy approaches using asset class-level emission factors are used. Sovereign Debt: PCAF provides two approaches for sovereign bond emissions: production-based (emissions produced within a country's borders) and consumption-based (emissions from goods consumed within a country, adjusted for trade). The attribution factor is the financial institution's holding divided by the country's total government debt (PPP-adjusted GDP can also be used). Sub-Sovereign Debt follows a similar approach but uses regional or municipal emissions data.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "project finance",
+      "use of proceeds",
+      "securitized products",
+      "sovereign debt",
+      "green bonds"
+    ]
+  }
+}

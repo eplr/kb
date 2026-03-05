@@ -1,0 +1,24 @@
+{
+  "chunk_id": "pcaf_018",
+  "standard_id": "pcaf",
+  "section": "regulatory_context",
+  "topic": "Regulatory Context and CSRD Alignment",
+  "language": "en",
+  "content": "The PCAF standard exists within a broader regulatory landscape that increasingly mandates climate-related financial disclosures. Key regulatory touchpoints include: EU Corporate Sustainability Reporting Directive (CSRD): Requires large EU companies and financial institutions to disclose Scope 3 financed emissions using standardized methodologies. PCAF is referenced as the leading methodology for financial institutions. European Sustainability Reporting Standards (ESRS): The technical standards under CSRD. ESRS E1 (Climate Change) requires disclosure of Scope 3 Category 15 emissions for financial institutions, effectively mandating PCAF-style calculations. EU Taxonomy: Requires assessment of the climate alignment of economic activities, which complements PCAF's emissions measurement with transition assessment. Task Force on Climate-related Financial Disclosures (TCFD): Recommends disclosure of financed emissions and portfolio-level metrics (WACI). PCAF provides the calculation methodology that feeds into TCFD reporting. Basel Committee: Has signaled that climate risk, including financed emissions, may become part of prudential supervisory expectations. For European financial institutions, PCAF compliance is increasingly becoming a regulatory requirement rather than a voluntary commitment, making implementation a strategic priority.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "regulation",
+      "CSRD",
+      "ESRS",
+      "EU Taxonomy",
+      "TCFD",
+      "Basel",
+      "compliance"
+    ]
+  }
+}

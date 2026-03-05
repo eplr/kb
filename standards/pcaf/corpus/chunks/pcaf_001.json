@@ -1,0 +1,23 @@
+{
+  "chunk_id": "pcaf_001",
+  "standard_id": "pcaf",
+  "section": "overview",
+  "topic": "PCAF Standard Overview",
+  "language": "en",
+  "content": "The Partnership for Carbon Accounting Financials (PCAF) is a global, industry-led initiative that enables financial institutions to assess and disclose the greenhouse gas (GHG) emissions associated with their loans and investments. Launched in the Netherlands in 2015 and expanded globally in 2019, PCAF provides the only harmonized methodology for measuring and disclosing financed emissions in line with the GHG Protocol Corporate Value Chain (Scope 3) Standard, specifically Category 15 — Investments. The PCAF standard is organized into three parts: Part A covers Financed Emissions from lending and investment portfolios, Part B covers Facilitated Emissions from capital market activities, and Part C covers Insurance-Associated Emissions from underwriting activities. As of 2024, over 500 financial institutions globally have committed to PCAF, representing over $90 trillion in financial assets. The standard is endorsed by the Task Force on Climate-related Financial Disclosures (TCFD) and referenced in multiple regulatory frameworks including the EU's Corporate Sustainability Reporting Directive (CSRD).",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "PCAF",
+      "overview",
+      "GHG Protocol",
+      "Category 15",
+      "financed emissions",
+      "TCFD"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_004",
+  "standard_id": "pcaf",
+  "section": "part_a_asset_classes_2",
+  "topic": "Part A Asset Classes — Real Estate, Mortgages, and Motor Vehicles",
+  "language": "en",
+  "content": "Commercial Real Estate: Emissions are typically based on building energy performance data (Energy Performance Certificates or actual energy consumption). The attribution factor is the outstanding loan amount divided by the property value at origination. Key data points include building type, floor area, location, and energy efficiency rating. Residential Mortgages: Similar to CRE but applied to residential properties. Emissions are calculated using building energy performance data (EPC ratings, actual energy consumption) or national/regional averages per building type and floor area. This is often one of the largest asset classes for European banks and insurers. PCAF provides country-specific emission factors for residential buildings. Motor Vehicle Loans: Emissions are based on vehicle type (ICE, hybrid, BEV), fuel type, and estimated annual mileage. The attribution factor follows the standard approach (outstanding amount / vehicle value). With the transition to electric vehicles, this asset class is becoming increasingly important for tracking transition progress. Data quality can be relatively high (DQS 2-3) when vehicle registration data is available.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "commercial real estate",
+      "residential mortgages",
+      "motor vehicle loans",
+      "EPC",
+      "building emissions"
+    ]
+  }
+}

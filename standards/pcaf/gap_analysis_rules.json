@@ -1,0 +1,176 @@
+{
+  "standard_id": "pcaf",
+  "coverage_statuses": {
+    "reported": {
+      "definition": "Data point is fully disclosed with quantified values and methodology",
+      "score_equivalent": "meets_requirement",
+      "color": "green"
+    },
+    "partial": {
+      "definition": "Data point is partially disclosed — some information available but incomplete coverage, missing methodology detail, or limited scope",
+      "score_equivalent": "partially_meets",
+      "color": "amber"
+    },
+    "missing": {
+      "definition": "Data point is not disclosed or not found in the sustainability report",
+      "score_equivalent": "does_not_meet",
+      "color": "red"
+    },
+    "N/A": {
+      "definition": "Data point is not applicable to this entity type (e.g. Part C for banks)",
+      "score_equivalent": "not_applicable",
+      "color": "grey"
+    }
+  },
+  "priority_classification": {
+    "critical": {
+      "condition": "Score 0-1 AND high materiality for entity type",
+      "action": "Immediate remediation required — blocks compliance",
+      "timeline": "0-3 months",
+      "examples": [
+        "No PCAF methodology adopted (asset manager)",
+        "No financed emissions reported (bank/insurer)",
+        "No Part C reporting for insurer"
+      ]
+    },
+    "high": {
+      "condition": "Score 0-1 AND medium materiality for entity type",
+      "action": "Priority remediation — significant compliance risk",
+      "timeline": "3-6 months",
+      "examples": [
+        "Missing data quality scores",
+        "No attribution methodology documented",
+        "Sovereign debt not included"
+      ]
+    },
+    "medium": {
+      "condition": "Score 2 AND any materiality level",
+      "action": "Planned improvement — on path but needs enhancement",
+      "timeline": "6-12 months",
+      "examples": [
+        "Partial asset class coverage",
+        "Limited scope coverage (Scope 1+2 only)",
+        "Basic intensity metrics only"
+      ]
+    },
+    "low": {
+      "condition": "Score 3 or above",
+      "action": "Continuous improvement — meets minimum, opportunity to lead",
+      "timeline": "12-24 months",
+      "examples": [
+        "Improve DQS from 3 to 2",
+        "Extend temporal coverage",
+        "Add peer benchmarking"
+      ]
+    }
+  },
+  "materiality_by_entity_type": {
+    "insurer": {
+      "high": ["part_a_financed_emissions", "part_c_insurance_emissions", "asset_class_coverage", "dqs"],
+      "medium": ["attribution_methodology", "scope_coverage", "underwriting_integration"],
+      "low": ["temporal_coverage", "intensity_metrics", "sovereign_debt_inclusion"]
+    },
+    "bank": {
+      "high": ["part_a_financed_emissions", "part_b_facilitated_emissions", "asset_class_coverage", "dqs"],
+      "medium": ["attribution_methodology", "scope_coverage", "portfolio_coverage"],
+      "low": ["temporal_coverage", "intensity_metrics", "sovereign_debt_inclusion"]
+    },
+    "asset_manager": {
+      "high": ["part_a_financed_emissions", "asset_class_coverage", "dqs", "portfolio_coverage"],
+      "medium": ["attribution_methodology", "scope_coverage", "intensity_metrics"],
+      "low": ["temporal_coverage", "sovereign_debt_inclusion"]
+    },
+    "reinsurer": {
+      "high": ["part_a_financed_emissions", "part_c_insurance_emissions", "treaty_reinsurance", "dqs"],
+      "medium": ["attribution_methodology", "scope_coverage", "commercial_lines"],
+      "low": ["temporal_coverage", "intensity_metrics"]
+    },
+    "bancassurance": {
+      "high": ["part_a_financed_emissions", "part_b_facilitated_emissions", "part_c_insurance_emissions", "dqs"],
+      "medium": ["asset_class_coverage", "attribution_methodology", "scope_coverage"],
+      "low": ["temporal_coverage", "intensity_metrics"]
+    },
+    "exchange": {
+      "high": ["part_a_financed_emissions", "asset_class_coverage"],
+      "medium": ["attribution_methodology", "dqs"],
+      "low": ["temporal_coverage", "intensity_metrics", "scope_coverage"]
+    },
+    "investment_holding": {
+      "high": ["part_a_financed_emissions", "asset_class_coverage", "portfolio_coverage"],
+      "medium": ["attribution_methodology", "dqs", "scope_coverage"],
+      "low": ["temporal_coverage", "intensity_metrics"]
+    }
+  },
+  "gap_templates": {
+    "no_pcaf_adoption": {
+      "title": "PCAF Methodology Not Adopted",
+      "description": "Institution has not adopted the PCAF standard for measuring financed emissions. This is a foundational gap that prevents compliance with GHG Protocol Category 15 requirements.",
+      "severity": "critical",
+      "recommendation": "Join PCAF as a signatory and begin implementation with a phased approach starting from the most material asset classes.",
+      "applicable_entity_types": ["all"]
+    },
+    "no_financed_emissions": {
+      "title": "No Financed Emissions Reported",
+      "description": "Institution mentions PCAF but does not report quantified financed emissions. Without absolute emissions figures, compliance assessment is incomplete.",
+      "severity": "critical",
+      "recommendation": "Calculate and disclose total financed emissions using PCAF methodology, starting with the largest asset classes by exposure.",
+      "applicable_entity_types": ["all"]
+    },
+    "missing_dqs": {
+      "title": "No Data Quality Scores Reported",
+      "description": "Institution reports financed emissions but does not provide PCAF Data Quality Scores. DQS is essential for assessing the reliability of reported figures.",
+      "severity": "high",
+      "recommendation": "Assign PCAF Data Quality Scores (1-5) per asset class and disclose weighted average DQS.",
+      "applicable_entity_types": ["all"]
+    },
+    "limited_asset_class_coverage": {
+      "title": "Limited Asset Class Coverage",
+      "description": "Institution covers fewer than 5 of the 10 PCAF asset classes. Significant portfolio emissions may be unaccounted for.",
+      "severity": "high",
+      "recommendation": "Expand coverage to include all material asset classes, prioritizing by portfolio exposure size.",
+      "applicable_entity_types": ["all"]
+    },
+    "no_part_b_reporting": {
+      "title": "No Part B (Facilitated Emissions) Reporting",
+      "description": "Bank does not report facilitated emissions from capital market activities. Part B is material for institutions with significant underwriting/advisory activities.",
+      "severity": "high",
+      "recommendation": "Implement PCAF Part B methodology for capital market issuances and advisory services.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_part_c_reporting": {
+      "title": "No Part C (Insurance-Associated Emissions) Reporting",
+      "description": "Insurer/reinsurer does not report insurance-associated emissions. Part C is a core requirement for insurance entities under PCAF.",
+      "severity": "high",
+      "recommendation": "Implement PCAF Part C methodology starting with the most material insurance lines.",
+      "applicable_entity_types": ["insurer", "reinsurer", "bancassurance"]
+    },
+    "scope_1_2_only": {
+      "title": "Only Scope 1 and 2 Covered in Financed Emissions",
+      "description": "Institution only covers investee Scope 1 and 2 emissions in financed emissions calculations, missing material Scope 3 emissions.",
+      "severity": "medium",
+      "recommendation": "Extend financed emissions calculation to include investee Scope 3 emissions for high-impact sectors.",
+      "applicable_entity_types": ["all"]
+    },
+    "no_sovereign_debt": {
+      "title": "Sovereign Debt Not Included",
+      "description": "Sovereign debt emissions are not tracked or disclosed. For institutions with significant sovereign bond holdings, this may be a material omission.",
+      "severity": "medium",
+      "recommendation": "Implement PCAF sovereign debt methodology using production-based or consumption-based approaches.",
+      "applicable_entity_types": ["all"]
+    },
+    "poor_data_quality": {
+      "title": "Low Data Quality (DQS 4-5)",
+      "description": "Institution relies primarily on proxy or estimated data (DQS 4-5). This indicates reliance on economic activity data rather than reported emissions.",
+      "severity": "medium",
+      "recommendation": "Develop a data quality improvement roadmap targeting DQS 2-3 within 2 years through enhanced data collection and vendor engagement.",
+      "applicable_entity_types": ["all"]
+    },
+    "no_intensity_metrics": {
+      "title": "No Intensity Metrics Reported",
+      "description": "Institution does not report emissions intensity metrics alongside absolute figures. Intensity metrics enable better comparability and target-setting.",
+      "severity": "low",
+      "recommendation": "Report PCAF Economic Carbon Intensity (ECI) and sector-specific metrics (WACI, per EVIC) alongside absolute emissions.",
+      "applicable_entity_types": ["all"]
+    }
+  }
+}

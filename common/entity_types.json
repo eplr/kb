@@ -1,0 +1,110 @@
+[
+  {
+    "id": "insurer",
+    "name_en": "Insurance Company",
+    "name_fr": "Compagnie d'assurance",
+    "description_en": "Entity providing insurance products and managing investment portfolios.",
+    "applicable_standards": {
+      "pcaf": [
+        "A",
+        "C"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 0.5,
+      "part_c": 0.5
+    }
+  },
+  {
+    "id": "bank",
+    "name_en": "Bank",
+    "name_fr": "Banque",
+    "description_en": "Commercial or universal bank providing lending, deposit, and capital market services.",
+    "applicable_standards": {
+      "pcaf": [
+        "A",
+        "B"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 0.7,
+      "part_b": 0.3
+    }
+  },
+  {
+    "id": "asset_manager",
+    "name_en": "Asset Manager",
+    "name_fr": "Gestionnaire d'actifs",
+    "description_en": "Entity managing investment portfolios on behalf of clients.",
+    "applicable_standards": {
+      "pcaf": [
+        "A"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 1.0
+    }
+  },
+  {
+    "id": "reinsurer",
+    "name_en": "Reinsurance Company",
+    "name_fr": "Compagnie de réassurance",
+    "description_en": "Entity providing reinsurance to primary insurers, managing both investment and underwriting portfolios.",
+    "applicable_standards": {
+      "pcaf": [
+        "A",
+        "C"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 0.5,
+      "part_c": 0.5
+    }
+  },
+  {
+    "id": "bancassurance",
+    "name_en": "Bancassurance Group",
+    "name_fr": "Groupe de bancassurance",
+    "description_en": "Entity combining banking and insurance operations under one corporate structure.",
+    "applicable_standards": {
+      "pcaf": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 0.4,
+      "part_b": 0.2,
+      "part_c": 0.4
+    }
+  },
+  {
+    "id": "exchange",
+    "name_en": "Stock Exchange / Market Infrastructure",
+    "name_fr": "Bourse / Infrastructure de marché",
+    "description_en": "Market infrastructure provider with investment activities.",
+    "applicable_standards": {
+      "pcaf": [
+        "A"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 1.0
+    }
+  },
+  {
+    "id": "investment_holding",
+    "name_en": "Investment Holding Company",
+    "name_fr": "Société d'investissement holding",
+    "description_en": "Entity primarily holding and managing equity stakes in portfolio companies.",
+    "applicable_standards": {
+      "pcaf": [
+        "A"
+      ]
+    },
+    "pcaf_weighting": {
+      "part_a": 1.0
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "pcaf_020",
+  "standard_id": "pcaf",
+  "section": "alternative_scoring_method",
+  "topic": "Alternative Scoring Methodology (100% Scale)",
+  "language": "en",
+  "content": "The alternative scoring methodology provides a simplified, percentage-based compliance assessment suitable for cross-institution comparison. The total score is calculated by summing points across several dimensions: PCAF Status (max 20%): Signatory = 20%, Mentioned only = 10%, Not mentioned = 0%. This rewards formal commitment to the PCAF standard. Part A — Financed Emissions (max 40%): Reported with quantified values = 40%, Partial disclosure = 20%, Missing = 0%. This is the largest single component, reflecting the centrality of financed emissions. Part B — Facilitated Emissions (max 15%, banks/bancassurance only): Reported = 15%, Partial = 7.5%, Missing = 0%, N/A = 0%. For non-bank entities, this component is excluded and the total is renormalized. Part C — Insurance-Associated Emissions (max 15%, insurers/reinsurers only): Reported = 15%, Partial = 7.5%, Missing = 0%, N/A = 0%. For non-insurance entities, this component is excluded and the total is renormalized. Asset Class Detail (max 25%): Each of the 10 PCAF asset classes scores 2.5% if reported or 1.25% if partial. This rewards breadth of coverage. The total score maps to maturity levels: 0-19% = Not Started/Initial, 20-39% = Initial/Developing, 40-59% = Developing/Defined, 60-79% = Defined/Advanced, 80-100% = Advanced/Leading.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "alternative scoring",
+      "percentage",
+      "compliance score",
+      "maturity level",
+      "cross-institution"
+    ]
+  }
+}

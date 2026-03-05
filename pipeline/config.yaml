@@ -1,0 +1,26 @@
+defaults:
+  standard: pcaf
+  chunk_size: 500
+  chunk_overlap: 50
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  llm_model: "meta-llama/Llama-3-8b"
+
+paths:
+  standards_dir: "../standards"
+  institutions_dir: "../institutions"
+  templates_dir: "../templates"
+
+ingestion:
+  supported_formats:
+    - pdf
+    - xlsx
+  output_format: json
+  chunk_metadata:
+    include_source: true
+    include_position: true
+    include_token_estimate: true
+
+analysis:
+  scoring_method: alternative  # "alternative" (percentage) or "detailed" (0-5 rubric)
+  gap_threshold: 3  # criteria scored below this trigger gap identification
+  output_format: json

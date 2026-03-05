@@ -1,0 +1,52 @@
+{
+  "institution_id": "SOCGEN",
+  "name": "Société Générale SA",
+  "entity_type": "bank",
+  "country": "FR",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "partial",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "missing",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "partial",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "partial",
+        "motor_vehicle_loans": "partial",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "partial",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": {
+        "capital_markets": "reported",
+        "advisory_services": "reported"
+      },
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 2: Report total financed emissions, not just sector targets",
+      "compliance_score": 47.5,
+      "maturity_classification": {
+        "level": "2-3",
+        "label": "Developing / Defined",
+        "score": 47.5
+      }
+    }
+  }
+}

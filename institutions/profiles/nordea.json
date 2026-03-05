@@ -1,0 +1,52 @@
+{
+  "institution_id": "NORDEA",
+  "name": "Nordea Bank Abp",
+  "entity_type": "bank",
+  "country": "FI",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": true,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": null,
+        "unit": "unknown"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "partial",
+        "C": "N/A"
+      },
+      "dqs": 4,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "partial",
+        "commercial_real_estate": "reported",
+        "residential_mortgages": "reported",
+        "motor_vehicle_loans": "reported",
+        "use_of_proceeds": "partial",
+        "securitized_structured": "missing",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": {
+        "capital_markets": "reported",
+        "advisory_services": "reported"
+      },
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Improve DQS from 4 to target 2-3",
+      "compliance_score": 83.75,
+      "maturity_classification": {
+        "level": "4-5",
+        "label": "Advanced / Leading",
+        "score": 83.75
+      }
+    }
+  }
+}

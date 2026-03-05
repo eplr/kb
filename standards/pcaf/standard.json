@@ -1,0 +1,81 @@
+{
+  "standard_id": "pcaf",
+  "name": "Partnership for Carbon Accounting Financials",
+  "version": "2024",
+  "focus": "GHG Protocol Scope 3 Category 15 (Investments)",
+  "parts": [
+    {
+      "id": "A",
+      "name": "Financed Emissions",
+      "definition": "Emissions attributable to loans and investments across 10 asset classes",
+      "applicability": ["insurer", "bank", "asset_manager", "reinsurer", "bancassurance", "exchange", "investment_holding"],
+      "asset_classes": [
+        {"id": "listed_equity_corporate_bonds", "name": "Listed equity and corporate bonds"},
+        {"id": "business_loans_unlisted_equity", "name": "Business loans and unlisted equity"},
+        {"id": "project_finance", "name": "Project finance"},
+        {"id": "commercial_real_estate", "name": "Commercial real estate"},
+        {"id": "residential_mortgages", "name": "Residential mortgages"},
+        {"id": "motor_vehicle_loans", "name": "Motor vehicle loans"},
+        {"id": "use_of_proceeds", "name": "Use of proceeds"},
+        {"id": "securitized_structured", "name": "Securitized and structured products"},
+        {"id": "sovereign_debt", "name": "Sovereign debt"},
+        {"id": "sub_sovereign_debt", "name": "Sub-sovereign debt"}
+      ],
+      "criteria": [
+        "Asset Class Coverage",
+        "Data Quality Score",
+        "Attribution Methodology",
+        "Scope Coverage",
+        "Portfolio Coverage",
+        "Sovereign Debt Inclusion",
+        "Temporal Coverage",
+        "Intensity Metrics"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Facilitated Emissions",
+      "definition": "Emissions attributable to capital market issuance activities",
+      "applicability": ["bank", "investment_bank", "bancassurance"],
+      "applicable_to": ["bank", "investment_bank"],
+      "categories": ["Capital market issuances"],
+      "criteria": [
+        "Capital Markets Activity",
+        "Emission Attribution"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Insurance-Associated Emissions",
+      "definition": "Emissions attributable to re/insurance and underwriting activities",
+      "applicability": ["insurer", "reinsurer", "bancassurance"],
+      "applicable_to": ["insurer", "reinsurer"],
+      "insurance_lines": [
+        "Commercial lines insurance",
+        "Personal motor lines",
+        "Project insurance",
+        "Treaty reinsurance"
+      ],
+      "criteria": [
+        "Insurance Lines Coverage",
+        "Commercial Lines",
+        "Motor Insurance",
+        "Project Insurance",
+        "Treaty Reinsurance",
+        "Attribution Methodology",
+        "Underwriting Integration",
+        "Data Quality"
+      ]
+    }
+  ],
+  "data_quality_score": {
+    "scale": "1-5 (1=best, 5=worst)",
+    "levels": {
+      "1": "Verified - Reported emissions data",
+      "2": "Audited - Reported with limited disclosure",
+      "3": "Primary - Physical activity data",
+      "4": "Estimated - Estimated physical activity",
+      "5": "Proxy - Economic activity data"
+    }
+  }
+}

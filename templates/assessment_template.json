@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "standard_id": "{{standard_id}}",
+  "entity_type": "{{entity_type}}",
+  "institution_id": "{{institution_id}}",
+  "assessment_date": "{{assessment_date}}",
+  "assessor": "{{assessor}}",
+  "criteria": [
+    {"id": "asset_class_coverage", "part": "A", "name": "Asset Class Coverage", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "data_quality_score", "part": "A", "name": "Data Quality Score", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "attribution_methodology", "part": "A", "name": "Attribution Methodology", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "scope_coverage", "part": "A", "name": "Scope Coverage", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "portfolio_coverage", "part": "A", "name": "Portfolio Coverage", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "sovereign_debt_inclusion", "part": "A", "name": "Sovereign Debt Inclusion", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "temporal_coverage", "part": "A", "name": "Temporal Coverage", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "intensity_metrics", "part": "A", "name": "Intensity Metrics", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "capital_markets_activity", "part": "B", "name": "Capital Markets Activity", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "emission_attribution", "part": "B", "name": "Emission Attribution", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "insurance_lines_coverage", "part": "C", "name": "Insurance Lines Coverage", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "commercial_lines", "part": "C", "name": "Commercial Lines", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "motor_insurance", "part": "C", "name": "Motor Insurance", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "project_insurance", "part": "C", "name": "Project Insurance", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "treaty_reinsurance", "part": "C", "name": "Treaty Reinsurance", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "attribution_methodology_c", "part": "C", "name": "Attribution Methodology (Insurance)", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "underwriting_integration", "part": "C", "name": "Underwriting Integration", "score": null, "max_score": 5, "evidence": "", "notes": ""},
+    {"id": "data_quality_c", "part": "C", "name": "Data Quality (Insurance)", "score": null, "max_score": 5, "evidence": "", "notes": ""}
+  ],
+  "json_schema": {
+    "type": "object",
+    "required": ["standard_id", "entity_type", "institution_id", "assessment_date", "criteria"],
+    "properties": {
+      "standard_id": {"type": "string", "enum": ["pcaf", "vsme", "csrd"]},
+      "entity_type": {"type": "string", "enum": ["insurer", "bank", "asset_manager", "reinsurer", "bancassurance", "exchange", "investment_holding"]},
+      "institution_id": {"type": "string", "minLength": 1},
+      "assessment_date": {"type": "string", "format": "date"},
+      "assessor": {"type": "string"},
+      "criteria": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "part", "score", "max_score"],
+          "properties": {
+            "id": {"type": "string"},
+            "part": {"type": "string", "enum": ["A", "B", "C"]},
+            "name": {"type": "string"},
+            "score": {"type": ["integer", "null"], "minimum": 0, "maximum": 5},
+            "max_score": {"type": "integer", "const": 5},
+            "evidence": {"type": "string"},
+            "notes": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}

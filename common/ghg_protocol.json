@@ -1,0 +1,187 @@
+{
+  "framework": "GHG Protocol",
+  "version": "Corporate Value Chain (Scope 3) Standard",
+  "scopes": {
+    "scope_1": {
+      "id": "scope_1",
+      "name": "Direct Emissions",
+      "description": "GHG emissions from sources owned or controlled by the reporting entity, including on-site combustion, company vehicles, and fugitive emissions.",
+      "fi_materiality": "Low",
+      "fi_examples": [
+        "Office heating",
+        "Company fleet vehicles",
+        "On-site generators"
+      ]
+    },
+    "scope_2": {
+      "id": "scope_2",
+      "name": "Energy Indirect Emissions",
+      "description": "GHG emissions from the generation of purchased energy consumed by the reporting entity.",
+      "fi_materiality": "Low",
+      "fi_examples": [
+        "Office electricity",
+        "Data center power",
+        "Branch heating/cooling"
+      ],
+      "methods": {
+        "location_based": "Uses average grid emission factors for the location of consumption",
+        "market_based": "Uses emission factors from contractual instruments (RECs, PPAs, green tariffs)"
+      }
+    }
+  },
+  "scope_3_categories": [
+    {
+      "id": 1,
+      "name": "Purchased Goods & Services",
+      "description": "Emissions from production of goods and services purchased by the institution.",
+      "fi_materiality": "Low-Medium",
+      "fi_examples": [
+        "IT equipment",
+        "Office supplies",
+        "Professional services"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Capital Goods",
+      "description": "Emissions from production of capital goods purchased by the institution.",
+      "fi_materiality": "Low-Medium",
+      "fi_examples": [
+        "Office furniture",
+        "IT infrastructure",
+        "Building renovations"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fuel & Energy Related Activities",
+      "description": "Emissions from extraction, production, and transportation of fuels and energy not included in Scope 1 or 2.",
+      "fi_materiality": "Low",
+      "fi_examples": [
+        "Upstream emissions from purchased electricity",
+        "Transmission and distribution losses"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Upstream Transportation & Distribution",
+      "description": "Emissions from transportation and distribution of products purchased by the institution.",
+      "fi_materiality": "Very Low",
+      "fi_examples": [
+        "Document courier services",
+        "Office supply delivery"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Waste Generated in Operations",
+      "description": "Emissions from disposal and treatment of waste generated in operations.",
+      "fi_materiality": "Very Low",
+      "fi_examples": [
+        "Office waste",
+        "Electronic waste",
+        "Paper recycling"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Business Travel",
+      "description": "Emissions from transportation of employees for business-related activities.",
+      "fi_materiality": "Medium",
+      "fi_examples": [
+        "Flights to client meetings",
+        "Rail travel",
+        "Hotel stays"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Employee Commuting",
+      "description": "Emissions from transportation of employees between home and work.",
+      "fi_materiality": "Low-Medium",
+      "fi_examples": [
+        "Car commuting",
+        "Public transport",
+        "Remote work offsets"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Upstream Leased Assets",
+      "description": "Emissions from operation of assets leased by the institution.",
+      "fi_materiality": "Low",
+      "fi_examples": [
+        "Leased office spaces",
+        "Leased vehicles",
+        "Leased data centers"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Downstream Transportation & Distribution",
+      "description": "Emissions from transportation and distribution of products sold by the institution.",
+      "fi_materiality": "Very Low",
+      "fi_examples": [
+        "Delivery of physical documents to clients"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Processing of Sold Products",
+      "description": "Emissions from processing of intermediate products sold by the institution.",
+      "fi_materiality": "N/A",
+      "fi_examples": [
+        "Not applicable to financial institutions"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Use of Sold Products",
+      "description": "Emissions from the use of goods and services sold by the institution.",
+      "fi_materiality": "N/A",
+      "fi_examples": [
+        "Not applicable to financial institutions"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "End-of-Life Treatment of Sold Products",
+      "description": "Emissions from disposal of products sold by the institution.",
+      "fi_materiality": "N/A",
+      "fi_examples": [
+        "Not applicable to financial institutions"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Downstream Leased Assets",
+      "description": "Emissions from operation of assets owned by the institution and leased to others.",
+      "fi_materiality": "Low-Medium",
+      "fi_examples": [
+        "Leased real estate properties",
+        "Leased equipment"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Franchises",
+      "description": "Emissions from operations of franchises.",
+      "fi_materiality": "Very Low",
+      "fi_examples": [
+        "Franchise banking operations (rare)"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Investments",
+      "description": "Emissions associated with the institution's investments and lending activities. This is the PCAF focus category and typically represents 90-99% of a financial institution's total Scope 3 emissions.",
+      "fi_materiality": "Very High",
+      "fi_examples": [
+        "Financed emissions from loan book",
+        "Investment portfolio emissions",
+        "Underwriting emissions"
+      ]
+    }
+  ],
+  "key_fact": "For financial institutions, Category 15 (Investments) typically accounts for >90% of total Scope 3 emissions, making PCAF implementation the single most impactful action for emissions measurement."
+}

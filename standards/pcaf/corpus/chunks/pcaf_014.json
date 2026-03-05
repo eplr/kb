@@ -1,0 +1,23 @@
+{
+  "chunk_id": "pcaf_014",
+  "standard_id": "pcaf",
+  "section": "fi_materiality",
+  "topic": "Materiality for Financial Institutions",
+  "language": "en",
+  "content": "Financial institutions face unique materiality considerations when measuring GHG emissions. Unlike industrial companies whose direct operations drive emissions, FIs create the most climate impact through their financing, investment, and underwriting decisions. The materiality hierarchy for FIs is: Financed Emissions (Part A) — Material for all FIs. This is the core PCAF metric. Banks should prioritize their largest lending portfolios (corporate lending, mortgages). Asset managers should focus on their largest AUM positions. Insurers should cover their investment portfolios. Facilitated Emissions (Part B) — Material for banks and investment banks with significant capital markets activity. This includes IPO underwriting, bond issuance, and M&A advisory. Insurance-Associated Emissions (Part C) — Material for insurers and reinsurers. The underwriting portfolio often represents a separate and significant source of emissions beyond the investment portfolio. Entity-type-specific considerations: Banks should prioritize corporate and SME lending, which often have the highest emissions intensity per euro invested. Insurers face dual materiality from both investments (Part A) and underwriting (Part C). Asset managers may find that a small number of high-carbon holdings dominate portfolio emissions. Bancassurance groups must address all three parts, making their compliance journey more complex.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "materiality",
+      "financial institutions",
+      "banks",
+      "insurers",
+      "asset managers",
+      "materiality hierarchy"
+    ]
+  }
+}

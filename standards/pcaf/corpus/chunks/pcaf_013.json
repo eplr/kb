@@ -1,0 +1,21 @@
+{
+  "chunk_id": "pcaf_013",
+  "standard_id": "pcaf",
+  "section": "scope3_category15",
+  "topic": "Scope 3 Category 15 — Investments Context",
+  "language": "en",
+  "content": "GHG Protocol Scope 3 Category 15 (Investments) is the focus of the PCAF standard and represents the most material emissions category for financial institutions. For banks, insurers, and asset managers, Category 15 typically accounts for 90-99% of total Scope 3 emissions and often exceeds operational emissions (Scope 1 + Scope 2) by a factor of 100-1000x. This makes financed emissions measurement essential for understanding the true climate impact of financial institutions. The GHG Protocol defines 15 categories of Scope 3 emissions, but for financial institutions, the materiality profile is heavily skewed: Category 15 (Investments) has Very High materiality; Category 6 (Business Travel) has Medium materiality; Categories 1, 2, 7, 13 have Low-Medium materiality; and the remaining categories have Very Low or N/A materiality. This concentration means that a financial institution's climate strategy must prioritize financed emissions measurement and reduction. PCAF provides the standardized methodology to implement Category 15 accounting. Without PCAF, financial institutions risk using inconsistent methodologies that produce incomparable results and undermine stakeholder confidence.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "Scope 3",
+      "Category 15",
+      "investments",
+      "materiality",
+      "financial institutions",
+      "GHG Protocol"
+    ]
+  }
+}

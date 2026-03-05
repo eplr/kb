@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_008",
+  "standard_id": "pcaf",
+  "section": "part_c_insurance_lines",
+  "topic": "Part C — Insurance Lines Detail",
+  "language": "en",
+  "content": "Commercial Lines Insurance: This is typically the most material insurance line for emissions. It covers property insurance, liability insurance, marine/aviation/transport, and specialty lines for commercial and industrial clients. Emissions are based on the insured company's GHG profile and the insurer's share via the insurance-to-value ratio. Key sectors include energy, manufacturing, transport, and real estate. Personal Motor Lines: Emissions are calculated based on the insured vehicle fleet characteristics — vehicle type (ICE, hybrid, EV), fuel type, engine size, and estimated annual mileage. This line benefits from relatively good data availability through vehicle registration databases. The transition to electric vehicles creates both measurement challenges and opportunities for tracking decarbonization progress. Project Insurance: Similar to Part A project finance, but from the insurance perspective. Emissions are attributed based on the insurer's share of coverage relative to total project value. High-emission projects (fossil fuel infrastructure, cement plants) receive particular scrutiny. Treaty Reinsurance: The most complex line for emissions calculation. The reinsurer must estimate emissions for the underlying portfolio transferred through the treaty. For proportional treaties, the reinsurer's share of premiums approximates their share of emissions. For non-proportional (excess-of-loss) treaties, allocation methodologies are still evolving.",
+  "metadata": {
+    "pcaf_parts": [
+      "C"
+    ],
+    "keywords": [
+      "commercial lines",
+      "motor insurance",
+      "project insurance",
+      "treaty reinsurance",
+      "insurance attribution"
+    ]
+  }
+}

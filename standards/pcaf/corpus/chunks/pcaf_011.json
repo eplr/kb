@@ -1,0 +1,23 @@
+{
+  "chunk_id": "pcaf_011",
+  "standard_id": "pcaf",
+  "section": "scoring",
+  "topic": "Scoring and Maturity Assessment",
+  "language": "en",
+  "content": "The PCAF compliance assessment uses two complementary scoring approaches. The detailed scoring uses 18 criteria across Parts A, B, and C, each scored on a 0-5 rubric. Part A has 8 criteria (Asset Class Coverage, Data Quality Score, Attribution Methodology, Scope Coverage, Portfolio Coverage, Sovereign Debt Inclusion, Temporal Coverage, Intensity Metrics). Part B has 2 criteria (Capital Markets Activity, Emission Attribution). Part C has 8 criteria (Insurance Lines Coverage, Commercial Lines, Motor Insurance, Project Insurance, Treaty Reinsurance, Attribution Methodology, Underwriting Integration, Data Quality). Weighted scores are calculated based on entity type: banks use 70% Part A + 30% Part B; insurers and reinsurers use 50% Part A + 50% Part C; asset managers use 100% Part A; bancassurance groups use 40% Part A + 20% Part B + 40% Part C. The alternative scoring method uses a simpler percentage-based approach: PCAF signatory status (20%), Part A reporting (40%), Part B reporting (15%, banks only), Part C reporting (15%, insurers only), and per-asset-class detail (2.5% each). Maturity levels map scores to implementation stages: 0-19% = Not Started/Initial, 20-39% = Developing, 40-59% = Defined, 60-79% = Advanced, 80-100% = Leading.",
+  "metadata": {
+    "pcaf_parts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "keywords": [
+      "scoring",
+      "maturity",
+      "criteria",
+      "weighted score",
+      "assessment",
+      "compliance"
+    ]
+  }
+}

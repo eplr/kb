@@ -1,0 +1,21 @@
+{
+  "chunk_id": "pcaf_003",
+  "standard_id": "pcaf",
+  "section": "part_a_asset_classes_1",
+  "topic": "Part A Asset Classes — Listed Equity, Corporate Bonds, and Business Loans",
+  "language": "en",
+  "content": "Listed Equity and Corporate Bonds: For publicly traded investments, the attribution factor uses Enterprise Value Including Cash (EVIC) as the denominator. EVIC is defined as market capitalization plus total debt plus preferred stock plus minority interest. This ensures consistency across equity and debt instruments. Emissions data should cover investee Scope 1, Scope 2, and where available, material Scope 3 emissions. Data sources include company sustainability reports, CDP disclosures, and third-party data providers. Business Loans and Unlisted Equity: For private companies and SME lending, the attribution factor uses total equity plus debt as the denominator when EVIC is not available. This asset class often has lower data quality (DQS 3-5) due to limited disclosure by smaller companies. PCAF recommends using sector-based emission factors when company-specific data is unavailable, and encourages financial institutions to engage with borrowers to improve data quality over time. Both asset classes require tracking across Scope 1 and 2 at minimum, with Scope 3 inclusion recommended for high-impact sectors such as energy, transport, and materials.",
+  "metadata": {
+    "pcaf_parts": [
+      "A"
+    ],
+    "keywords": [
+      "listed equity",
+      "corporate bonds",
+      "business loans",
+      "unlisted equity",
+      "EVIC",
+      "attribution factor"
+    ]
+  }
+}

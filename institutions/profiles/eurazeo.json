@@ -1,0 +1,49 @@
+{
+  "institution_id": "EURAZEO",
+  "name": "Eurazeo SE",
+  "entity_type": "asset_manager",
+  "country": "FR",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": true,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": 45,
+        "scope2_market": 80
+      },
+      "financed_emissions": {
+        "value": 3674661,
+        "unit": "tCO2e"
+      },
+      "part_status": {
+        "A": "reported",
+        "B": "N/A",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "N/A",
+        "business_loans_unlisted_equity": "reported",
+        "project_finance": "missing",
+        "commercial_real_estate": "missing",
+        "residential_mortgages": "partial",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "missing",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": null,
+      "critical_gaps": [],
+      "recommendation": "Priority 3: Add explicit Data Quality Scores per PCAF guidance",
+      "compliance_score": 53.75,
+      "maturity_classification": {
+        "level": "2-3",
+        "label": "Developing / Defined",
+        "score": 53.75
+      }
+    }
+  }
+}

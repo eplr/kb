@@ -1,0 +1,20 @@
+{
+  "chunk_id": "pcaf_007",
+  "standard_id": "pcaf",
+  "section": "part_c_overview",
+  "topic": "Part C — Insurance-Associated Emissions Overview",
+  "language": "en",
+  "content": "PCAF Part C addresses insurance-associated emissions — GHG emissions linked to insurance and reinsurance underwriting activities. This part was added to the PCAF standard in 2022 to extend coverage to the insurance industry's core business of risk transfer. Part C is applicable to insurers, reinsurers, and bancassurance groups. Four insurance lines are covered: (1) Commercial lines insurance — covering commercial and industrial property, liability, and specialty lines; (2) Personal motor lines — covering personal auto insurance; (3) Project insurance — covering large infrastructure and energy projects; (4) Treaty reinsurance — covering proportional and non-proportional reinsurance treaties. The insurance attribution factor is calculated differently from Part A: it uses the insurer's share of the total insured value or, alternatively, a premium-based allocation. The formula is: Insurance-Associated Emissions = Insurance Attribution Factor × Policyholder Emissions. Part C is at an earlier stage of adoption compared to Part A, with many insurers still in the scoping or pilot phase.",
+  "metadata": {
+    "pcaf_parts": [
+      "C"
+    ],
+    "keywords": [
+      "Part C",
+      "insurance emissions",
+      "underwriting",
+      "insurance lines",
+      "attribution factor"
+    ]
+  }
+}

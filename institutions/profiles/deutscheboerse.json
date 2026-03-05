@@ -1,0 +1,51 @@
+{
+  "institution_id": "DEUTSCHEBOERSE",
+  "name": "Deutsche Börse AG",
+  "entity_type": "exchange",
+  "country": "DE",
+  "standards": {
+    "pcaf": {
+      "assessment_date": "2025-02-01",
+      "pcaf_mentioned": false,
+      "pcaf_signatory": false,
+      "operational_emissions": {
+        "scope1": null,
+        "scope2_market": null
+      },
+      "financed_emissions": {
+        "value": 1227,
+        "unit": "tCO2e"
+      },
+      "part_status": {
+        "A": "partial",
+        "B": "N/A",
+        "C": "N/A"
+      },
+      "dqs": null,
+      "asset_class_coverage": {
+        "listed_equity_corporate_bonds": "partial",
+        "business_loans_unlisted_equity": "partial",
+        "project_finance": "missing",
+        "commercial_real_estate": "partial",
+        "residential_mortgages": "missing",
+        "motor_vehicle_loans": "missing",
+        "use_of_proceeds": "missing",
+        "securitized_structured": "missing",
+        "sovereign_debt": "reported",
+        "sub_sovereign_debt": "missing"
+      },
+      "part_b_coverage": null,
+      "part_c_coverage": null,
+      "critical_gaps": [
+        "Non-PCAF signatory with limited financed emissions disclosure"
+      ],
+      "recommendation": "Priority 1: Join PCAF and implement full methodology",
+      "compliance_score": 26.25,
+      "maturity_classification": {
+        "level": "1-2",
+        "label": "Initial / Developing",
+        "score": 26.25
+      }
+    }
+  }
+}
