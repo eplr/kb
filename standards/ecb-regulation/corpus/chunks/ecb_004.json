@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_004",
+  "standard_id": "ecb-regulation",
+  "section": "risk_appetite",
+  "topic": "Risk Appetite Framework — Expectation E4",
+  "language": "en",
+  "content": "Expectation 4 of the ECB Guide states that institutions are expected to explicitly include climate-related and environmental risks in their risk appetite framework (RAF). This means that the institution's risk appetite statement should reference C&E risks, and that specific risk appetite indicators, limits and thresholds should be defined for climate-related exposures. Examples of climate-related risk appetite metrics include: sector concentration limits for high-carbon or carbon-intensive industries, portfolio-level emission intensity targets, physical risk exposure limits by geography, green asset ratio targets, and limits on financing of fossil fuel activities. The ECB expects these indicators to be operationalised — meaning they are actively monitored, reported to the management body, and trigger escalation or remediation actions when breached. The risk appetite framework should be consistent with the institution's business strategy and transition plan. Where the institution has committed to net-zero targets, the RAF should include intermediate milestones. Integration of C&E risk limits into the ICAAP further demonstrates alignment between risk appetite and capital adequacy assessment.",
+  "metadata": {
+    "ecb_expectations": ["E4"],
+    "keywords": ["risk appetite", "RAF", "concentration limits", "carbon-intensive", "ICAAP", "risk indicators"]
+  }
+}

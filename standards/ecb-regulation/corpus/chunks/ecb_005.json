@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_005",
+  "standard_id": "ecb-regulation",
+  "section": "governance_structure",
+  "topic": "Organisational Structure and Responsibilities — Expectation E5",
+  "language": "en",
+  "content": "Expectation 5 of the ECB Guide requires institutions to assign responsibility for the management of climate-related and environmental risks within their organisational structure, in accordance with the three lines of defence model. In the first line, business units and front-office functions are expected to own and manage C&E risks as part of their day-to-day activities — for example, loan officers should consider climate risk factors when originating credit. The second line, comprising risk management and compliance functions, is expected to develop methodologies, set standards and provide oversight of C&E risk-taking across the institution. The third line — internal audit — is expected to provide independent assurance on the adequacy of the institution's C&E risk management practices. The ECB also expects the management body to actively oversee C&E risk management, potentially through a dedicated board committee or by integrating C&E risk discussions into existing risk committee agendas. Leading institutions appoint dedicated roles (e.g. Chief Sustainability Officer or Climate Risk Officer) and ensure that staff across all levels receive training on C&E risk identification and management.",
+  "metadata": {
+    "ecb_expectations": ["E5"],
+    "keywords": ["governance", "organisational structure", "three lines of defence", "management body", "responsibilities", "internal audit"]
+  }
+}

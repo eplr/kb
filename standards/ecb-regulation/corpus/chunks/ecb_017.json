@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_017",
+  "standard_id": "ecb-regulation",
+  "section": "srep_integration",
+  "topic": "SREP Integration and Supervisory Enforcement",
+  "language": "en",
+  "content": "The ECB integrates its assessment of climate-related and environmental risk management into the annual Supervisory Review and Evaluation Process (SREP). While the ECB Guide is formally non-binding, non-compliance with its expectations can lead to supervisory consequences through the SREP. The ECB can impose qualitative Pillar 2 requirements — such as requiring the institution to develop a remediation plan for identified C&E risk gaps — and can, in principle, set quantitative Pillar 2 capital add-ons where deficiencies in climate risk management are assessed as leading to material unaddressed risks. Following the 2022 thematic review, the ECB set specific deadlines for supervised institutions to address identified shortcomings. Institutions that fail to make adequate progress risk escalating supervisory measures, which can include formal supervisory decisions, periodic penalty payments, or other binding measures under the SSM Regulation and CRD framework. The ECB has signalled a progressive tightening of its supervisory approach: from initial guidance (2020), to assessment and deadline-setting (2022-2023), to enforcement and potential capital implications (2024 onwards). On-site inspections increasingly include climate risk as a focus topic, examining whether institutions have implemented adequate C&E risk processes in practice rather than only on paper.",
+  "metadata": {
+    "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+    "keywords": ["SREP", "Pillar 2", "enforcement", "supervisory measures", "deadlines", "on-site inspections"]
+  }
+}

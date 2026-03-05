@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_007",
+  "standard_id": "ecb-regulation",
+  "section": "risk_management_framework",
+  "topic": "Risk Management Framework — Expectation E7",
+  "language": "en",
+  "content": "Expectation 7 of the ECB Guide is a foundational expectation requiring institutions to incorporate climate-related and environmental risks as drivers of existing prudential risk categories into their risk management framework. The ECB does not treat C&E risks as a standalone risk category; instead, it expects institutions to map how climate and environmental factors drive or amplify credit risk, market risk, operational risk, liquidity risk and other existing risk types. This mapping should be documented in the institution's risk taxonomy and risk identification processes. The institution should define how C&E risks are assessed, measured and mitigated within each risk category. The ECB expects the time horizon for risk management to be sufficiently long-term to capture the materialisation of climate risks, which may occur over decades rather than the typical one-year regulatory horizon. Integration into the ICAAP is a key element: institutions should assess the impact of C&E risks on their capital adequacy under both baseline and stressed conditions. The risk management framework should evolve as methodologies mature and data availability improves.",
+  "metadata": {
+    "ecb_expectations": ["E7"],
+    "keywords": ["risk management framework", "risk taxonomy", "ICAAP", "prudential risks", "risk drivers", "long-term horizon"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_010",
+  "standard_id": "ecb-regulation",
+  "section": "market_risk",
+  "topic": "Market Risk and Investment — Expectation E10",
+  "language": "en",
+  "content": "Expectation 10 of the ECB Guide requires institutions to monitor, on an ongoing basis, the effect of climate-related and environmental factors on their current market risk positions and future investments, and to develop stress-testing scenarios incorporating C&E risks. For market risk, institutions should identify positions in their trading and banking books that are sensitive to climate factors — for example, holdings in carbon-intensive sectors that could face repricing under transition scenarios, or real estate portfolios exposed to physical risk. Climate-related stress testing is a key element of this expectation. The ECB conducted a dedicated climate stress test in 2022, assessing how banks would be affected under different NGFS scenarios (orderly transition, disorderly transition and hot house world). Institutions are expected to develop their own internal climate scenario analysis capabilities, considering both short-term climate shocks (acute physical events, sudden policy changes) and long-term structural shifts (gradual temperature increase, evolving regulation). Results should feed into risk management decisions, capital planning and investment strategy. The ECB has noted that many institutions are still at an early stage in developing climate risk models for market risk purposes.",
+  "metadata": {
+    "ecb_expectations": ["E10"],
+    "keywords": ["market risk", "stress testing", "climate scenarios", "NGFS", "investment", "repricing", "scenario analysis"]
+  }
+}

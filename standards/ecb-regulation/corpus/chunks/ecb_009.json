@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_009",
+  "standard_id": "ecb-regulation",
+  "section": "operational_risk",
+  "topic": "Operational and Reputational Risk — Expectation E9",
+  "language": "en",
+  "content": "Expectation 9 of the ECB Guide addresses how climate-related and environmental events could have an adverse impact on business continuity and the extent to which the nature of the institution's activities could increase reputational and liability risks. On the operational risk side, institutions should assess the physical risk exposure of their own operations — including data centres, branch networks, offices and critical third-party service providers — to climate events such as flooding, extreme heat, storms and wildfires. Business continuity plans should incorporate climate-related scenarios. On the reputational and liability risk side, the ECB expects institutions to assess whether their lending, investment or advisory activities could expose them to greenwashing accusations, climate-related litigation, or stakeholder backlash. This is particularly relevant for institutions that market green financial products or make public climate commitments but fail to demonstrate credible action. Liability risk can also arise from failure to adequately assess or disclose climate risks. The ECB has emphasised that reputational risk from climate-related issues can translate rapidly into financial risk through deposit outflows, rating downgrades or increased funding costs.",
+  "metadata": {
+    "ecb_expectations": ["E9"],
+    "keywords": ["operational risk", "reputational risk", "business continuity", "greenwashing", "liability risk", "physical risk operations"]
+  }
+}

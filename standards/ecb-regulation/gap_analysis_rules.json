@@ -1,0 +1,187 @@
+{
+  "standard_id": "ecb-regulation",
+  "coverage_statuses": {
+    "reported": {
+      "definition": "Expectation is fully addressed with documented evidence of implementation, quantified metrics where applicable, and integration into institutional processes",
+      "score_equivalent": "meets_requirement",
+      "color": "green"
+    },
+    "partial": {
+      "definition": "Expectation is partially addressed — some elements implemented but coverage is incomplete, limited to qualitative statements, or restricted to a subset of risk categories or business lines",
+      "score_equivalent": "partially_meets",
+      "color": "amber"
+    },
+    "missing": {
+      "definition": "Expectation is not addressed or no evidence found in disclosures, risk management documentation, or supervisory reports",
+      "score_equivalent": "does_not_meet",
+      "color": "red"
+    },
+    "N/A": {
+      "definition": "Expectation is not applicable to this entity (e.g. specific banking activities not conducted by the institution)",
+      "score_equivalent": "not_applicable",
+      "color": "grey"
+    }
+  },
+  "priority_classification": {
+    "critical": {
+      "condition": "Score 0-1 AND high materiality for the expectation",
+      "action": "Immediate remediation required — likely to result in supervisory findings in SREP or thematic review",
+      "timeline": "0-3 months",
+      "examples": [
+        "No climate risk integration in risk management framework (E7)",
+        "No consideration of climate risks in credit granting (E8)",
+        "No climate-related disclosures whatsoever (E12/E13)",
+        "Climate risks absent from risk appetite framework (E4)"
+      ]
+    },
+    "high": {
+      "condition": "Score 0-1 AND medium materiality for the expectation",
+      "action": "Priority remediation — significant supervisory risk and potential Pillar 2 implications",
+      "timeline": "3-6 months",
+      "examples": [
+        "No organisational assignment of climate risk responsibilities (E5)",
+        "No internal reporting on climate risk exposures (E6)",
+        "No assessment of climate impacts on liquidity (E11)",
+        "No business environment monitoring for climate risks (E2)"
+      ]
+    },
+    "medium": {
+      "condition": "Score 2 AND any materiality level",
+      "action": "Planned improvement — initial steps taken but not yet meeting ECB expectations",
+      "timeline": "6-12 months",
+      "examples": [
+        "Climate risks considered only for high-carbon sectors in credit process",
+        "Qualitative climate disclosures without quantitative metrics",
+        "Initial climate risk appetite indicators without operational limits",
+        "Limited internal reporting coverage"
+      ]
+    },
+    "low": {
+      "condition": "Score 3 or above",
+      "action": "Continuous improvement — meets minimum expectations, opportunity to align with leading practices",
+      "timeline": "12-24 months",
+      "examples": [
+        "Enhance stress testing with additional climate scenarios",
+        "Extend counterparty-level climate risk scoring to full portfolio",
+        "Add forward-looking climate metrics to disclosures",
+        "Integrate climate factors into advanced internal models"
+      ]
+    }
+  },
+  "materiality_by_entity_type": {
+    "bank": {
+      "high": [
+        "risk_management_framework",
+        "credit_risk_management",
+        "risk_appetite_framework",
+        "disclosure_policies",
+        "key_metrics_vulnerabilities",
+        "strategy_integration"
+      ],
+      "medium": [
+        "organisational_structure",
+        "internal_reporting",
+        "understanding_ce_risks",
+        "market_risk_investment",
+        "operational_reputational_risk"
+      ],
+      "low": [
+        "business_environment_monitoring",
+        "liquidity_risk"
+      ]
+    },
+    "bancassurance": {
+      "high": [
+        "risk_management_framework",
+        "credit_risk_management",
+        "risk_appetite_framework",
+        "disclosure_policies",
+        "key_metrics_vulnerabilities",
+        "strategy_integration"
+      ],
+      "medium": [
+        "organisational_structure",
+        "internal_reporting",
+        "understanding_ce_risks",
+        "market_risk_investment",
+        "operational_reputational_risk"
+      ],
+      "low": [
+        "business_environment_monitoring",
+        "liquidity_risk"
+      ]
+    }
+  },
+  "gap_templates": {
+    "no_climate_risk_framework": {
+      "title": "Climate Risks Not Integrated in Risk Management Framework",
+      "description": "Institution has not incorporated climate-related and environmental risks as drivers of existing prudential risk categories. This is a core ECB expectation (E7) and a foundational gap for supervisory compliance.",
+      "severity": "critical",
+      "recommendation": "Map climate and environmental risks to all prudential risk categories (credit, market, operational, liquidity). Document risk identification methodology and integrate into risk taxonomy.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_credit_risk_integration": {
+      "title": "Climate Risks Not Considered in Credit Granting Process",
+      "description": "Institution does not consider climate-related risks at any stage of the credit-granting process (E8). ECB expects climate risk assessment in origination, monitoring, and review.",
+      "severity": "critical",
+      "recommendation": "Integrate climate risk assessment into credit origination policies, develop sector-level risk classifications, and establish portfolio monitoring for climate-sensitive exposures.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_climate_disclosures": {
+      "title": "No Climate-Related Risk Disclosures",
+      "description": "Institution does not publish meaningful information on climate-related and environmental risks (E12/E13). Supervisory expectations require structured disclosures aligned with regulatory frameworks.",
+      "severity": "critical",
+      "recommendation": "Develop disclosure policy covering governance, strategy, risk management and metrics. Align with Pillar 3 ESG requirements and TCFD framework.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_risk_appetite_climate": {
+      "title": "Climate Risks Absent from Risk Appetite Framework",
+      "description": "Institution has not explicitly included climate-related and environmental risks in its risk appetite framework (E4). Without climate-related limits and indicators, risk-taking is not bounded.",
+      "severity": "critical",
+      "recommendation": "Define climate-related risk appetite indicators and limits (e.g. sector concentration limits for high-carbon exposures, green asset ratio targets). Integrate into ICAAP.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_governance_assignment": {
+      "title": "No Assignment of Climate Risk Responsibilities",
+      "description": "Institution has not assigned responsibility for climate-related and environmental risk management within its organisational structure (E5). Three lines of defence model not applied to C&E risks.",
+      "severity": "high",
+      "recommendation": "Assign dedicated climate risk responsibilities across all three lines of defence. Establish board-level oversight and ensure adequate resources and expertise.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_internal_reporting": {
+      "title": "No Internal Reporting on Climate Risk Exposures",
+      "description": "Institution does not produce internal reports with aggregated risk data on climate-related exposures (E6). Management body cannot make informed decisions on C&E risk management.",
+      "severity": "high",
+      "recommendation": "Establish regular internal reporting with aggregated climate risk data including sectoral concentrations, physical risk exposure maps and transition risk indicators.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_climate_stress_testing": {
+      "title": "No Climate Stress Testing or Scenario Analysis",
+      "description": "Institution has not developed stress-testing scenarios incorporating climate-related and environmental risks (E10). ECB expects climate scenarios in market risk and broader stress testing.",
+      "severity": "high",
+      "recommendation": "Develop and implement climate stress-testing scenarios covering both transition and physical risk pathways. Integrate results into risk management and capital planning.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "limited_disclosure_metrics": {
+      "title": "Limited Climate Risk Metrics Disclosed",
+      "description": "Institution discloses some qualitative information but lacks quantitative key metrics on climate risk vulnerabilities (E13). Pillar 3 ESG templates not completed or limited.",
+      "severity": "medium",
+      "recommendation": "Expand disclosed metrics to include financed emissions, EU Taxonomy Green Asset Ratio, sectoral exposure breakdowns, and physical risk concentration analysis.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "partial_credit_integration": {
+      "title": "Partial Climate Risk Integration in Credit Process",
+      "description": "Climate risks considered only for selected sectors or only at origination, not throughout the full credit lifecycle (E8 partial).",
+      "severity": "medium",
+      "recommendation": "Extend climate risk assessment to all material sectors and all stages of the credit process (origination, monitoring, review). Develop counterparty-level climate risk scores.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    },
+    "no_liquidity_climate_assessment": {
+      "title": "No Assessment of Climate Impacts on Liquidity",
+      "description": "Institution has not assessed whether climate-related risks could cause liquidity stress (E11). Potential transmission channels through asset devaluation and funding access not analysed.",
+      "severity": "medium",
+      "recommendation": "Assess climate risk transmission channels to liquidity. Incorporate climate scenarios in ILAAP and liquidity stress testing where material.",
+      "applicable_entity_types": ["bank", "bancassurance"]
+    }
+  }
+}

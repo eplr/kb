@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_013",
+  "standard_id": "ecb-regulation",
+  "section": "thematic_review",
+  "topic": "ECB 2022 Thematic Review on Climate and Environmental Risks",
+  "language": "en",
+  "content": "In 2022, the ECB conducted a comprehensive thematic review assessing how supervised institutions manage and disclose climate-related and environmental risks against the 13 supervisory expectations set out in the Guide. The review found that while all banks had taken initial steps, no institution fully met all supervisory expectations. The ECB issued institution-specific findings, set deadlines for remediation, and announced that it would use binding supervisory measures if progress was insufficient. Key findings included: most institutions had developed initial frameworks but lacked quantitative risk assessment methodologies; credit risk integration was at an early stage, with few institutions using counterparty-level climate risk scoring; climate stress testing capabilities were limited, with many relying on simplified or external tools rather than internal models; disclosure quality varied widely, with a gap between leading institutions and laggards; and governance structures often lacked dedicated C&E risk roles or sufficient board expertise. The ECB set interim deadlines requiring institutions to achieve adequate categorisation and assessment of C&E risks by end of 2023, and full integration into risk management and strategy by end of 2024. NOTE: Specific assessment details and individual institution findings beyond these publicly communicated summaries may require expert review.",
+  "metadata": {
+    "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+    "keywords": ["thematic review", "2022", "supervisory findings", "deadlines", "remediation", "compliance gaps"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_014",
+  "standard_id": "ecb-regulation",
+  "section": "climate_stress_test",
+  "topic": "ECB Climate Stress Test 2022",
+  "language": "en",
+  "content": "In 2022, the ECB conducted its first dedicated supervisory climate stress test, covering 104 directly supervised significant institutions. The exercise was designed as a learning exercise rather than a pass/fail capital adequacy test. It comprised three modules: a qualitative questionnaire on banks' climate risk frameworks, a peer benchmarking of climate-related metrics, and a bottom-up stress test using three NGFS scenarios — orderly transition, disorderly transition, and hot house world — over a 30-year horizon (2022-2050). Key results indicated that banks with more advanced climate risk capabilities showed greater ability to capture and quantify potential losses. The ECB found that most banks did not yet have adequate data and models to fully capture climate risk in their stress testing frameworks. Banks' projected aggregate losses under the three scenarios were significant but manageable at the system level, though individual exposures to carbon-intensive sectors and physically vulnerable geographies showed material concentration risk. The exercise highlighted the importance of developing internal climate scenario analysis capabilities rather than relying solely on top-down supervisory exercises. The ECB communicated that climate stress test results would feed qualitatively into the SREP assessment, though not directly into Pillar 2 capital requirements at that stage.",
+  "metadata": {
+    "ecb_expectations": ["E10"],
+    "keywords": ["climate stress test", "2022", "NGFS scenarios", "orderly transition", "disorderly transition", "hot house world"]
+  }
+}

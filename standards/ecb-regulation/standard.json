@@ -1,0 +1,142 @@
+{
+  "standard_id": "ecb-regulation",
+  "name": "ECB Guide on Climate-Related and Environmental Risks",
+  "version": "2020",
+  "focus": "Supervisory expectations for the prudential management and disclosure of climate-related and environmental risks by ECB-supervised institutions",
+  "reference_documents": [
+    "ECB Guide on climate-related and environmental risks (November 2020)",
+    "ECB supervisory expectations on climate and environmental risk management (2020-2024)",
+    "ECB thematic review on climate-related and environmental risks (2022)"
+  ],
+  "applicability": {
+    "primary": ["bank"],
+    "secondary": ["bancassurance"],
+    "scope": "Significant institutions (SIs) directly supervised by the ECB; also serves as reference for less significant institutions (LSIs) supervised by national competent authorities"
+  },
+  "sections": [
+    {
+      "id": "business_environment",
+      "name": "Business Environment",
+      "expectations": [
+        {
+          "id": "E1",
+          "name": "Understanding of Climate-Related and Environmental Risks",
+          "description": "Institutions are expected to understand the impact of climate-related and environmental risks on the business environment they operate in, in the short, medium and long term, to be able to make informed strategic and business decisions.",
+          "category": "business_environment"
+        },
+        {
+          "id": "E2",
+          "name": "Business Environment Monitoring",
+          "description": "When determining and implementing their business strategy, institutions are expected to integrate climate-related and environmental risks that impact their business environment in the short, medium and long term.",
+          "category": "business_environment"
+        }
+      ]
+    },
+    {
+      "id": "business_strategy",
+      "name": "Business Strategy",
+      "expectations": [
+        {
+          "id": "E3",
+          "name": "Business Strategy Integration",
+          "description": "The management body is expected to consider climate-related and environmental risks when developing the institution's overall business strategy, business objectives and risk management framework, and to exercise effective oversight of climate-related and environmental risks.",
+          "category": "business_strategy"
+        },
+        {
+          "id": "E4",
+          "name": "Risk Appetite Framework",
+          "description": "Institutions are expected to explicitly include climate-related and environmental risks in their risk appetite framework.",
+          "category": "business_strategy"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "name": "Governance and Risk Appetite",
+      "expectations": [
+        {
+          "id": "E5",
+          "name": "Organisational Structure and Responsibilities",
+          "description": "Institutions are expected to assign responsibility for the management of climate-related and environmental risks within the organisational structure in accordance with the three lines of defence model.",
+          "category": "governance"
+        },
+        {
+          "id": "E6",
+          "name": "Internal Reporting and Risk Data Aggregation",
+          "description": "Institutions are expected to report aggregated risk data that reflect their climate-related and environmental risk exposures, enabling the management body and relevant sub-committees to make informed decisions.",
+          "category": "governance"
+        }
+      ]
+    },
+    {
+      "id": "risk_management",
+      "name": "Risk Management",
+      "expectations": [
+        {
+          "id": "E7",
+          "name": "Risk Management Framework",
+          "description": "Institutions are expected to incorporate climate-related and environmental risks as drivers of existing prudential risk categories into their existing risk management framework, with a view to managing, monitoring and mitigating these over a sufficiently long-term horizon.",
+          "category": "risk_management"
+        },
+        {
+          "id": "E8",
+          "name": "Credit Risk Management",
+          "description": "Institutions are expected to consider climate-related and environmental risks at all relevant stages of the credit-granting process and to monitor the risks in their portfolios.",
+          "category": "risk_management"
+        },
+        {
+          "id": "E9",
+          "name": "Operational and Reputational Risk",
+          "description": "Institutions are expected to consider how climate-related and environmental events could have an adverse impact on business continuity and the extent to which the nature of their activities could increase reputational and liability risks.",
+          "category": "risk_management"
+        },
+        {
+          "id": "E10",
+          "name": "Market Risk and Investment",
+          "description": "Institutions are expected to monitor, on an ongoing basis, the effect of climate-related and environmental factors on their current market risk positions and future investments, and to develop stress-testing scenarios incorporating climate-related and environmental risks.",
+          "category": "risk_management"
+        },
+        {
+          "id": "E11",
+          "name": "Liquidity Risk",
+          "description": "Institutions are expected to assess whether material climate-related and environmental risks could cause net cash outflows or depletion of liquidity buffers and, if so, incorporate these factors into their liquidity risk management and liquidity buffer calibration.",
+          "category": "risk_management"
+        }
+      ]
+    },
+    {
+      "id": "disclosures",
+      "name": "Disclosures",
+      "expectations": [
+        {
+          "id": "E12",
+          "name": "Disclosure Policies and Procedures",
+          "description": "For the purposes of their regulatory disclosures, institutions are expected to publish meaningful information and key metrics on climate-related and environmental risks that they deem to be material, with due regard to EU non-financial reporting guidelines.",
+          "category": "disclosures"
+        },
+        {
+          "id": "E13",
+          "name": "Key Metrics and Vulnerabilities Disclosure",
+          "description": "Institutions are expected to disclose meaningful information and key metrics on climate-related and environmental risks with reference to the institution's key areas of vulnerability to such risks, including transition and physical risk exposures.",
+          "category": "disclosures"
+        }
+      ]
+    }
+  ],
+  "risk_categories": [
+    {"id": "transition_risk", "name": "Transition Risk", "description": "Risks arising from the process of adjustment towards a lower-carbon economy, including policy, legal, technology and market changes"},
+    {"id": "physical_risk", "name": "Physical Risk", "description": "Risks arising from the physical effects of climate change, including acute events and chronic shifts"},
+    {"id": "credit_risk", "name": "Credit Risk (C&E driver)", "description": "Climate and environmental risks as drivers of credit risk through counterparty exposure"},
+    {"id": "market_risk", "name": "Market Risk (C&E driver)", "description": "Climate and environmental risks as drivers of market risk through asset repricing"},
+    {"id": "operational_risk", "name": "Operational Risk (C&E driver)", "description": "Climate and environmental risks as drivers of operational risk including business continuity"},
+    {"id": "liquidity_risk", "name": "Liquidity Risk (C&E driver)", "description": "Climate and environmental risks as drivers of liquidity risk through funding and buffer impacts"},
+    {"id": "reputational_risk", "name": "Reputational Risk (C&E driver)", "description": "Climate and environmental risks as drivers of reputational risk through greenwashing or inaction"}
+  ],
+  "supervisory_context": {
+    "issuer": "European Central Bank — Banking Supervision (SSM)",
+    "legal_basis": "CRD IV/V, CRR, SSM Regulation",
+    "related_frameworks": ["EBA Guidelines on ESG risks management", "Pillar 3 ESG disclosure requirements (CRR Article 449a)", "EU Taxonomy Regulation", "CSRD/ESRS"],
+    "assessment_approach": "The ECB assesses compliance through the Supervisory Review and Evaluation Process (SREP), thematic reviews, and on-site inspections. Findings feed into Pillar 2 requirements and qualitative supervisory measures.",
+    "note": "Specific supervisory sub-criteria and detailed assessment grids used internally by the ECB may not be publicly available. The expectations documented here reflect the published ECB Guide and related public communications. Some granular assessment details may require expert review against the latest ECB communications."
+  }
+}

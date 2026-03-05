@@ -1,0 +1,229 @@
+{
+  "standard_id": "ecb-regulation",
+  "criteria": {
+    "business_environment": [
+      {
+        "id": "understanding_ce_risks",
+        "name": "Understanding of Climate-Related and Environmental Risks",
+        "expectation": "E1",
+        "max_score": 5,
+        "rubric": {
+          "0": "No evidence of assessment or understanding of climate-related and environmental risks in the business environment",
+          "1": "High-level acknowledgment of climate risks without structured analysis of their impact on the business environment",
+          "2": "Initial assessment of climate and environmental risks covering either transition or physical risks, but not both, and limited to short-term horizon",
+          "3": "Documented assessment covering both transition and physical risks across short, medium and long term, with identified transmission channels",
+          "4": "Comprehensive assessment integrated into strategic planning, covering multiple environmental risk drivers with scenario differentiation",
+          "5": "Forward-looking, dynamic assessment with quantified impacts across time horizons, regularly updated and validated by external review"
+        }
+      },
+      {
+        "id": "business_environment_monitoring",
+        "name": "Business Environment Monitoring",
+        "expectation": "E2",
+        "max_score": 5,
+        "rubric": {
+          "0": "No monitoring of climate-related and environmental developments in the business environment",
+          "1": "Ad hoc monitoring of major climate-related regulatory or market developments",
+          "2": "Periodic monitoring process established but limited to regulatory developments only",
+          "3": "Systematic monitoring of regulatory, market and technology developments with documented impact analysis",
+          "4": "Comprehensive monitoring framework covering policy, technology, market sentiment and physical risk developments with regular board reporting",
+          "5": "Real-time monitoring integrated into strategic decision-making with early warning indicators and peer benchmarking"
+        }
+      }
+    ],
+    "business_strategy": [
+      {
+        "id": "strategy_integration",
+        "name": "Business Strategy Integration",
+        "expectation": "E3",
+        "max_score": 5,
+        "rubric": {
+          "0": "No consideration of climate-related and environmental risks in business strategy",
+          "1": "Climate risks mentioned in strategy documents but without concrete integration into business objectives",
+          "2": "Climate considerations included in strategy with initial targets (e.g. green financing targets) but limited to one business line",
+          "3": "Climate risks systematically considered in strategic planning with targets across multiple business lines and management body oversight",
+          "4": "Climate strategy fully embedded in business strategy with quantified targets, transition plan and regular management body review",
+          "5": "Comprehensive climate strategy with science-based targets, detailed transition plan, capital allocation aligned with Paris Agreement and public commitment"
+        }
+      },
+      {
+        "id": "risk_appetite_framework",
+        "name": "Risk Appetite Framework",
+        "expectation": "E4",
+        "max_score": 5,
+        "rubric": {
+          "0": "Climate-related and environmental risks not included in the risk appetite framework",
+          "1": "Qualitative reference to climate risks in the risk appetite statement without specific limits or indicators",
+          "2": "Initial climate-related risk appetite indicators defined but not yet operationalized with limits or thresholds",
+          "3": "Climate-related risk appetite limits defined and operationalized for key risk categories (e.g. sector concentration limits for high-carbon sectors)",
+          "4": "Comprehensive climate risk appetite with quantitative limits, escalation procedures and integration into ICAAP",
+          "5": "Dynamic risk appetite framework with forward-looking climate metrics, scenario-dependent limits and alignment with transition plan targets"
+        }
+      }
+    ],
+    "governance": [
+      {
+        "id": "organisational_structure",
+        "name": "Organisational Structure and Responsibilities",
+        "expectation": "E5",
+        "max_score": 5,
+        "rubric": {
+          "0": "No assignment of climate-related risk responsibilities within the organisational structure",
+          "1": "Climate risks mentioned as a topic but no dedicated roles or clear accountability assigned",
+          "2": "Initial assignment of climate risk responsibilities to existing risk functions, but not yet embedded in three lines of defence",
+          "3": "Climate risk responsibilities assigned across the three lines of defence with dedicated resources in risk management",
+          "4": "Clear accountability structure with board-level oversight, dedicated C&E risk function and roles in all three lines of defence",
+          "5": "Fully embedded governance with dedicated Chief Sustainability/Climate Risk Officer, board-level committee, regular skills assessment and external advisory"
+        }
+      },
+      {
+        "id": "internal_reporting",
+        "name": "Internal Reporting and Risk Data Aggregation",
+        "expectation": "E6",
+        "max_score": 5,
+        "rubric": {
+          "0": "No internal reporting on climate-related and environmental risk exposures",
+          "1": "Ad hoc internal reports on climate topics without structured data aggregation",
+          "2": "Periodic internal reports produced but with limited risk data aggregation and incomplete portfolio coverage",
+          "3": "Regular internal reporting with aggregated risk data on key climate risk exposures (e.g. sectoral concentrations, physical risk heatmaps)",
+          "4": "Comprehensive internal reporting with granular risk data, dashboard views and regular management body reporting with actionable metrics",
+          "5": "Integrated risk data infrastructure with automated aggregation, forward-looking risk indicators and real-time management body dashboards"
+        }
+      }
+    ],
+    "risk_management": [
+      {
+        "id": "risk_management_framework",
+        "name": "Risk Management Framework",
+        "expectation": "E7",
+        "max_score": 5,
+        "rubric": {
+          "0": "Climate-related and environmental risks not incorporated into the risk management framework",
+          "1": "Climate risks acknowledged as emerging risks but not mapped to existing prudential risk categories",
+          "2": "Initial mapping of climate risks to credit, market, operational and liquidity risk categories with qualitative assessment",
+          "3": "Climate risks integrated as risk drivers across all material prudential risk categories with documented risk identification and assessment processes",
+          "4": "Comprehensive integration with quantitative risk assessment, dedicated risk indicators, and climate risk reflected in risk taxonomy and ICAAP/ILAAP",
+          "5": "Dynamic risk management framework with climate risk embedded in all risk processes, validated by stress testing and with documented long-term horizon analysis"
+        }
+      },
+      {
+        "id": "credit_risk_management",
+        "name": "Credit Risk Management",
+        "expectation": "E8",
+        "max_score": 5,
+        "rubric": {
+          "0": "No consideration of climate-related risks in credit risk management",
+          "1": "General awareness of climate factors in lending but no formal integration into credit processes",
+          "2": "Climate risk factors considered in credit origination for selected high-carbon sectors only",
+          "3": "Climate risk assessment integrated into credit origination, monitoring and review processes with sector-level risk classifications",
+          "4": "Comprehensive credit risk integration with counterparty-level climate risk scoring, portfolio monitoring and concentration limits",
+          "5": "Full integration with forward-looking credit risk models incorporating transition pathways, physical risk geolocation and client engagement strategies"
+        }
+      },
+      {
+        "id": "operational_reputational_risk",
+        "name": "Operational and Reputational Risk",
+        "expectation": "E9",
+        "max_score": 5,
+        "rubric": {
+          "0": "No assessment of climate-related operational or reputational risks",
+          "1": "Climate-related risks acknowledged in business continuity plans at a high level",
+          "2": "Initial assessment of physical risk impact on operations (e.g. data centres, branches) and basic greenwashing risk awareness",
+          "3": "Climate risks integrated into business continuity planning and operational risk framework, with reputational risk monitoring",
+          "4": "Comprehensive operational risk assessment including physical risk to critical infrastructure, liability risk analysis and reputational risk early warning system",
+          "5": "Fully integrated operational risk management with scenario-based business continuity testing, litigation risk monitoring and proactive reputational risk mitigation"
+        }
+      },
+      {
+        "id": "market_risk_investment",
+        "name": "Market Risk and Investment",
+        "expectation": "E10",
+        "max_score": 5,
+        "rubric": {
+          "0": "No monitoring of climate-related factors in market risk positions",
+          "1": "General awareness of climate-related market risk factors without systematic monitoring",
+          "2": "Initial monitoring of climate-sensitive exposures in trading and investment books",
+          "3": "Regular monitoring of climate-related market risk with stress-testing scenarios covering climate events",
+          "4": "Comprehensive climate stress testing integrated into market risk framework with documented impact on VaR or equivalent measures",
+          "5": "Dynamic market risk management with climate factor models, forward-looking scenario analysis and climate-adjusted investment policies"
+        }
+      },
+      {
+        "id": "liquidity_risk",
+        "name": "Liquidity Risk",
+        "expectation": "E11",
+        "max_score": 5,
+        "rubric": {
+          "0": "No assessment of climate-related impacts on liquidity risk",
+          "1": "General acknowledgment of potential climate-related liquidity impacts without analysis",
+          "2": "Initial qualitative assessment of climate risk transmission to liquidity through asset devaluation or funding channels",
+          "3": "Climate-related liquidity risk factors identified and included in ILAAP with qualitative scenario analysis",
+          "4": "Quantitative assessment of climate-related liquidity impacts integrated into liquidity stress testing and buffer calibration",
+          "5": "Comprehensive climate-adjusted liquidity framework with dynamic stress scenarios, contingency funding plan integration and regular validation"
+        }
+      }
+    ],
+    "disclosures": [
+      {
+        "id": "disclosure_policies",
+        "name": "Disclosure Policies and Procedures",
+        "expectation": "E12",
+        "max_score": 5,
+        "rubric": {
+          "0": "No disclosure of climate-related and environmental risk information",
+          "1": "Minimal qualitative statements on climate risks without structured disclosure policy",
+          "2": "Initial climate disclosures present but not aligned with ECB expectations or Pillar 3 ESG requirements",
+          "3": "Structured climate risk disclosures covering governance, strategy, risk management and metrics/targets, aligned with TCFD framework",
+          "4": "Comprehensive disclosures with Pillar 3 ESG reporting, EU Taxonomy-aligned KPIs and detailed methodology explanations",
+          "5": "Leading disclosures with full Pillar 3 ESG compliance, granular portfolio-level data, forward-looking metrics and external assurance"
+        }
+      },
+      {
+        "id": "key_metrics_vulnerabilities",
+        "name": "Key Metrics and Vulnerabilities Disclosure",
+        "expectation": "E13",
+        "max_score": 5,
+        "rubric": {
+          "0": "No key metrics or vulnerability disclosures on climate-related risks",
+          "1": "Basic qualitative description of climate risk vulnerabilities without quantitative metrics",
+          "2": "Initial quantitative metrics reported (e.g. financed emissions or EU Taxonomy GAR) but limited scope",
+          "3": "Key metrics disclosed including financed emissions, sectoral exposure breakdowns and transition risk indicators",
+          "4": "Comprehensive metrics with physical and transition risk exposure quantification, concentration analysis and Pillar 3 ESG templates completed",
+          "5": "Full metrics suite with forward-looking indicators, climate VaR, alignment metrics, peer benchmarking and vulnerability heat maps"
+        }
+      }
+    ]
+  },
+  "weighting": {
+    "bank": {
+      "business_environment": 0.10,
+      "business_strategy": 0.15,
+      "governance": 0.15,
+      "risk_management": 0.40,
+      "disclosures": 0.20
+    },
+    "bancassurance": {
+      "business_environment": 0.10,
+      "business_strategy": 0.15,
+      "governance": 0.15,
+      "risk_management": 0.40,
+      "disclosures": 0.20
+    }
+  },
+  "alternative_scoring": {
+    "ecb_alignment_status": {"full_alignment": 20, "partial_alignment": 10, "no_alignment": 0},
+    "business_environment": {"reported": 10, "partial": 5, "missing": 0},
+    "business_strategy": {"reported": 15, "partial": 7.5, "missing": 0},
+    "governance": {"reported": 15, "partial": 7.5, "missing": 0},
+    "risk_management": {"reported": 25, "partial": 12.5, "missing": 0},
+    "disclosures": {"reported": 15, "partial": 7.5, "missing": 0},
+    "expectation_per_item": {"reported": 1.5, "partial": 0.75, "missing": 0}
+  },
+  "maturity_levels": [
+    {"min": 0, "max": 19, "level": "0-1", "label": "Not Started / Initial"},
+    {"min": 20, "max": 39, "level": "1-2", "label": "Initial / Developing"},
+    {"min": 40, "max": 59, "level": "2-3", "label": "Developing / Defined"},
+    {"min": 60, "max": 79, "level": "3-4", "label": "Defined / Advanced"},
+    {"min": 80, "max": 100, "level": "4-5", "label": "Advanced / Leading"}
+  ]
+}
