@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_015",
+  "standard_id": "ecb-regulation",
+  "section": "transmission_channels",
+  "topic": "Transmission Channels — How C&E Risks Become Financial Risks",
+  "language": "en",
+  "content": "The ECB Guide emphasises that climate-related and environmental risks are not a separate risk category but act as drivers of existing prudential risks through specific transmission channels. Transition risk transmits to financial risk through several pathways: policy and legal changes (e.g. carbon pricing, fossil fuel phase-out) can reduce borrower revenues and increase costs; technology shifts can render business models obsolete (stranded assets); market sentiment changes can trigger repricing of carbon-intensive assets; and reputational damage can affect customer relationships and funding. Physical risk transmits through: acute events (floods, storms, wildfires) causing direct damage to collateral, operational disruption and insurance claims; and chronic changes (sea level rise, temperature increases, water stress) gradually reducing asset values and economic productivity. These transmission channels affect prudential risk categories in the following ways: credit risk through borrower default or collateral devaluation; market risk through sudden repricing of securities and derivatives; operational risk through disruption to the institution's own operations or those of critical service providers; and liquidity risk through asset fire sales, collateral haircuts and increased funding costs. Understanding these transmission channels is fundamental to Expectation 1 and underpins the entire risk management framework required by the ECB Guide.",
+  "metadata": {
+    "ecb_expectations": ["E1", "E7"],
+    "keywords": ["transmission channels", "transition risk", "physical risk", "credit risk", "market risk", "stranded assets"]
+  }
+}

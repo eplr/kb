@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_018",
+  "standard_id": "ecb-regulation",
+  "section": "scoring_assessment",
+  "topic": "Scoring and Maturity Assessment Approach",
+  "language": "en",
+  "content": "The compliance assessment for the ECB Guide on climate-related and environmental risks evaluates each of the 13 supervisory expectations using a 0-5 scoring scale, where 0 indicates no evidence of addressing the expectation and 5 indicates leading practice. Expectations are grouped into five categories: business environment (Expectations 1-2, weighted 10%), business strategy (Expectations 3-4, weighted 15%), governance and risk appetite (Expectations 5-6, weighted 15%), risk management (Expectations 7-11, weighted 40%), and disclosures (Expectations 12-13, weighted 20%). The heavier weighting on risk management reflects the ECB's emphasis on concrete integration of C&E risks into prudential risk processes. An alternative percentage-based scoring methodology provides a simplified assessment: ECB alignment status (up to 20%), business environment (up to 10%), business strategy (up to 15%), governance (up to 15%), risk management (up to 25%), and disclosures (up to 15%), with additional points per individual expectation addressed. Total scores map to maturity levels: 0-19% Not Started/Initial, 20-39% Initial/Developing, 40-59% Developing/Defined, 60-79% Defined/Advanced, 80-100% Advanced/Leading. Gap analysis identifies specific shortcomings by expectation, classifies them by priority (critical/high/medium/low), and maps them against materiality for the specific entity type.",
+  "metadata": {
+    "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+    "keywords": ["scoring", "maturity", "assessment", "compliance", "weighting", "gap analysis"]
+  }
+}

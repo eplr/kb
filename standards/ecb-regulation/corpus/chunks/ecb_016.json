@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_016",
+  "standard_id": "ecb-regulation",
+  "section": "regulatory_context",
+  "topic": "Regulatory Context and Related Frameworks",
+  "language": "en",
+  "content": "The ECB Guide on climate-related and environmental risks operates within a broader EU regulatory ecosystem. The Capital Requirements Directive (CRD V/VI) introduced requirements for institutions to consider ESG risks in governance, strategy and risk management, providing a legal basis for supervisory scrutiny. The Capital Requirements Regulation (CRR) was amended to include Article 449a, mandating large institutions to disclose ESG risks under Pillar 3 using EBA implementing technical standards templates. The EU Taxonomy Regulation established a classification system for sustainable economic activities, requiring banks to disclose their Green Asset Ratio (GAR) — the proportion of assets financing taxonomy-aligned activities. The Corporate Sustainability Reporting Directive (CSRD) and European Sustainability Reporting Standards (ESRS) impose comprehensive sustainability reporting requirements on large banks, with significant overlap with ECB disclosure expectations. The EBA has published separate guidelines on ESG risk management (EBA/GL/2025 — placeholder: check exact reference for current status) that complement the ECB Guide with more granular technical requirements. The Network for Greening the Financial System (NGFS) provides climate scenarios used in supervisory stress tests. These frameworks are converging, and the ECB increasingly assesses compliance with its Guide in conjunction with these legal requirements.",
+  "metadata": {
+    "ecb_expectations": ["E12", "E13"],
+    "keywords": ["CRD", "CRR", "Article 449a", "EU Taxonomy", "CSRD", "ESRS", "EBA guidelines", "NGFS"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_012",
+  "standard_id": "ecb-regulation",
+  "section": "disclosures",
+  "topic": "Disclosure Expectations — E12 and E13",
+  "language": "en",
+  "content": "Expectations 12 and 13 of the ECB Guide address disclosures. Under Expectation 12, institutions are expected to publish meaningful information and key metrics on climate-related and environmental risks that they deem to be material, with due regard to EU non-financial reporting guidelines. The ECB expects disclosures to be structured around the TCFD pillars: governance, strategy, risk management, and metrics and targets. Additionally, large institutions subject to CRR Article 449a are required to produce Pillar 3 ESG disclosures using the EBA's implementing technical standards templates. Under Expectation 13, institutions are expected to disclose information specifically on their key areas of vulnerability to C&E risks, including quantitative metrics on transition and physical risk exposures. Key metrics expected include: financed emissions (absolute and intensity), EU Taxonomy Green Asset Ratio, exposures to carbon-related assets and high-carbon sectors, physical risk exposure by geography, energy efficiency of real estate collateral, and alignment metrics with climate scenarios. The ECB has found that while disclosure quality has improved since 2020, many institutions still lack granular portfolio-level data, forward-looking metrics, and external assurance of climate disclosures.",
+  "metadata": {
+    "ecb_expectations": ["E12", "E13"],
+    "keywords": ["disclosures", "Pillar 3 ESG", "TCFD", "Green Asset Ratio", "financed emissions", "CRR Article 449a"]
+  }
+}

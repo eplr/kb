@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_006",
+  "standard_id": "ecb-regulation",
+  "section": "internal_reporting",
+  "topic": "Internal Reporting and Risk Data Aggregation — Expectation E6",
+  "language": "en",
+  "content": "Expectation 6 of the ECB Guide states that institutions are expected to report aggregated risk data that reflect their exposure to climate-related and environmental risks, with a view to enabling the management body and relevant sub-committees to make informed decisions. This requires building data infrastructure capable of aggregating climate risk exposures across the portfolio, including sectoral concentration analysis (e.g. exposure to fossil fuels, carbon-intensive manufacturing, agriculture), geographic risk mapping for physical risk (e.g. flood zones, wildfire-prone areas), counterparty-level climate risk scores or ratings, and portfolio-level emission metrics. The ECB expects internal reports to be produced on a regular basis (at minimum quarterly for key indicators) and to be presented at management body or risk committee level. Reports should include both backward-looking metrics (current exposures, realised losses) and forward-looking indicators (scenario analysis results, trend projections). Data quality and completeness are critical: the ECB has noted that many institutions struggle with data gaps, particularly for Scope 3 emissions of counterparties and physical risk geolocation of collateral.",
+  "metadata": {
+    "ecb_expectations": ["E6"],
+    "keywords": ["internal reporting", "risk data aggregation", "management body", "sectoral concentration", "data quality", "climate metrics"]
+  }
+}

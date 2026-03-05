@@ -1,0 +1,200 @@
+[
+  {
+    "chunk_id": "ecb_001",
+    "standard_id": "ecb-regulation",
+    "section": "overview",
+    "topic": "ECB Guide on Climate-Related and Environmental Risks — Overview",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+      "keywords": ["ECB Guide", "overview", "climate-related risks", "environmental risks", "supervisory expectations", "SSM"]
+    }
+  },
+  {
+    "chunk_id": "ecb_002",
+    "standard_id": "ecb-regulation",
+    "section": "business_environment",
+    "topic": "Business Environment — Expectations E1 and E2",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E2"],
+      "keywords": ["business environment", "risk understanding", "transition risk", "physical risk", "environmental risks", "monitoring"]
+    }
+  },
+  {
+    "chunk_id": "ecb_003",
+    "standard_id": "ecb-regulation",
+    "section": "business_strategy",
+    "topic": "Business Strategy Integration — Expectation E3",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E3"],
+      "keywords": ["business strategy", "management body", "transition plan", "strategic planning", "oversight", "Paris Agreement"]
+    }
+  },
+  {
+    "chunk_id": "ecb_004",
+    "standard_id": "ecb-regulation",
+    "section": "risk_appetite",
+    "topic": "Risk Appetite Framework — Expectation E4",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E4"],
+      "keywords": ["risk appetite", "RAF", "concentration limits", "carbon-intensive", "ICAAP", "risk indicators"]
+    }
+  },
+  {
+    "chunk_id": "ecb_005",
+    "standard_id": "ecb-regulation",
+    "section": "governance_structure",
+    "topic": "Organisational Structure and Responsibilities — Expectation E5",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E5"],
+      "keywords": ["governance", "organisational structure", "three lines of defence", "management body", "responsibilities", "internal audit"]
+    }
+  },
+  {
+    "chunk_id": "ecb_006",
+    "standard_id": "ecb-regulation",
+    "section": "internal_reporting",
+    "topic": "Internal Reporting and Risk Data Aggregation — Expectation E6",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E6"],
+      "keywords": ["internal reporting", "risk data aggregation", "management body", "sectoral concentration", "data quality", "climate metrics"]
+    }
+  },
+  {
+    "chunk_id": "ecb_007",
+    "standard_id": "ecb-regulation",
+    "section": "risk_management_framework",
+    "topic": "Risk Management Framework — Expectation E7",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E7"],
+      "keywords": ["risk management framework", "risk taxonomy", "ICAAP", "prudential risks", "risk drivers", "long-term horizon"]
+    }
+  },
+  {
+    "chunk_id": "ecb_008",
+    "standard_id": "ecb-regulation",
+    "section": "credit_risk",
+    "topic": "Credit Risk Management — Expectation E8",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E8"],
+      "keywords": ["credit risk", "credit granting", "counterparty risk", "sector classification", "concentration risk", "portfolio monitoring"]
+    }
+  },
+  {
+    "chunk_id": "ecb_009",
+    "standard_id": "ecb-regulation",
+    "section": "operational_risk",
+    "topic": "Operational and Reputational Risk — Expectation E9",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E9"],
+      "keywords": ["operational risk", "reputational risk", "business continuity", "greenwashing", "liability risk", "physical risk operations"]
+    }
+  },
+  {
+    "chunk_id": "ecb_010",
+    "standard_id": "ecb-regulation",
+    "section": "market_risk",
+    "topic": "Market Risk and Investment — Expectation E10",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E10"],
+      "keywords": ["market risk", "stress testing", "climate scenarios", "NGFS", "investment", "repricing", "scenario analysis"]
+    }
+  },
+  {
+    "chunk_id": "ecb_011",
+    "standard_id": "ecb-regulation",
+    "section": "liquidity_risk",
+    "topic": "Liquidity Risk — Expectation E11",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E11"],
+      "keywords": ["liquidity risk", "ILAAP", "liquidity buffer", "funding risk", "contingency funding", "transmission channels"]
+    }
+  },
+  {
+    "chunk_id": "ecb_012",
+    "standard_id": "ecb-regulation",
+    "section": "disclosures",
+    "topic": "Disclosure Expectations — E12 and E13",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E12", "E13"],
+      "keywords": ["disclosures", "Pillar 3 ESG", "TCFD", "Green Asset Ratio", "financed emissions", "CRR Article 449a"]
+    }
+  },
+  {
+    "chunk_id": "ecb_013",
+    "standard_id": "ecb-regulation",
+    "section": "thematic_review",
+    "topic": "ECB 2022 Thematic Review on Climate and Environmental Risks",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+      "keywords": ["thematic review", "2022", "supervisory findings", "deadlines", "remediation", "compliance gaps"]
+    }
+  },
+  {
+    "chunk_id": "ecb_014",
+    "standard_id": "ecb-regulation",
+    "section": "climate_stress_test",
+    "topic": "ECB Climate Stress Test 2022",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E10"],
+      "keywords": ["climate stress test", "2022", "NGFS scenarios", "orderly transition", "disorderly transition", "hot house world"]
+    }
+  },
+  {
+    "chunk_id": "ecb_015",
+    "standard_id": "ecb-regulation",
+    "section": "transmission_channels",
+    "topic": "Transmission Channels — How C&E Risks Become Financial Risks",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E7"],
+      "keywords": ["transmission channels", "transition risk", "physical risk", "credit risk", "market risk", "stranded assets"]
+    }
+  },
+  {
+    "chunk_id": "ecb_016",
+    "standard_id": "ecb-regulation",
+    "section": "regulatory_context",
+    "topic": "Regulatory Context and Related Frameworks",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E12", "E13"],
+      "keywords": ["CRD", "CRR", "Article 449a", "EU Taxonomy", "CSRD", "ESRS", "EBA guidelines", "NGFS"]
+    }
+  },
+  {
+    "chunk_id": "ecb_017",
+    "standard_id": "ecb-regulation",
+    "section": "srep_integration",
+    "topic": "SREP Integration and Supervisory Enforcement",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+      "keywords": ["SREP", "Pillar 2", "enforcement", "supervisory measures", "deadlines", "on-site inspections"]
+    }
+  },
+  {
+    "chunk_id": "ecb_018",
+    "standard_id": "ecb-regulation",
+    "section": "scoring_assessment",
+    "topic": "Scoring and Maturity Assessment Approach",
+    "language": "en",
+    "metadata": {
+      "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+      "keywords": ["scoring", "maturity", "assessment", "compliance", "weighting", "gap analysis"]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_011",
+  "standard_id": "ecb-regulation",
+  "section": "liquidity_risk",
+  "topic": "Liquidity Risk — Expectation E11",
+  "language": "en",
+  "content": "Expectation 11 of the ECB Guide requires institutions to assess whether material climate-related and environmental risks could cause net cash outflows or depletion of liquidity buffers and, if so, to incorporate these factors into their liquidity risk management and liquidity buffer calibration. Climate risks can affect liquidity through several transmission channels: a sudden repricing of carbon-intensive assets could reduce the value of collateral and marketable securities in the liquidity buffer; physical risk events could trigger large claims or insurance payouts requiring cash outflows; reputational risk from climate controversies could affect deposit stability or wholesale funding access; and a disorderly transition could create systemic liquidity stress across financial markets. The ECB expects institutions to conduct a qualitative assessment at minimum, identifying the most relevant transmission channels for their specific business model. Where climate-related liquidity risks are assessed as material, they should be incorporated into the ILAAP, including through climate-specific liquidity stress scenarios. The contingency funding plan should also consider climate-related triggers. This expectation is acknowledged as one of the more challenging to operationalise, and the ECB recognises that methodologies are still evolving.",
+  "metadata": {
+    "ecb_expectations": ["E11"],
+    "keywords": ["liquidity risk", "ILAAP", "liquidity buffer", "funding risk", "contingency funding", "transmission channels"]
+  }
+}

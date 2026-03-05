@@ -24,6 +24,13 @@
       "pcaf": [
         "A",
         "B"
+      ],
+      "ecb-regulation": [
+        "business_environment",
+        "business_strategy",
+        "governance",
+        "risk_management",
+        "disclosures"
       ]
     },
     "pcaf_weighting": {
@@ -71,6 +78,13 @@
         "A",
         "B",
         "C"
+      ],
+      "ecb-regulation": [
+        "business_environment",
+        "business_strategy",
+        "governance",
+        "risk_management",
+        "disclosures"
       ]
     },
     "pcaf_weighting": {

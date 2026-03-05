@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_002",
+  "standard_id": "ecb-regulation",
+  "section": "business_environment",
+  "topic": "Business Environment — Expectations E1 and E2",
+  "language": "en",
+  "content": "Expectations 1 and 2 of the ECB Guide address the institution's understanding of its business environment in relation to climate-related and environmental risks. Under Expectation 1, institutions are expected to understand the impact of C&E risks on the business environment in which they operate, across the short, medium and long term, to be able to make informed strategic and business decisions. This includes identifying relevant risk drivers — both transition risks (policy, technology, market, legal) and physical risks (acute events and chronic shifts) — and assessing how they may affect the institution's business model, counterparties and the broader economy. Under Expectation 2, institutions are expected to integrate the monitoring of climate-related and environmental developments into their ongoing assessment of the business environment. This means tracking regulatory changes, technological developments, market shifts and emerging scientific evidence on a systematic basis, rather than as an ad hoc exercise. The ECB expects institutions to consider a broad range of environmental risk factors beyond climate alone, including biodiversity loss, water stress, pollution and resource depletion.",
+  "metadata": {
+    "ecb_expectations": ["E1", "E2"],
+    "keywords": ["business environment", "risk understanding", "transition risk", "physical risk", "environmental risks", "monitoring"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_008",
+  "standard_id": "ecb-regulation",
+  "section": "credit_risk",
+  "topic": "Credit Risk Management — Expectation E8",
+  "language": "en",
+  "content": "Expectation 8 of the ECB Guide requires institutions to consider climate-related and environmental risks at all relevant stages of the credit-granting process and to monitor the risks in their portfolios. In credit origination, this means assessing the borrower's exposure to transition and physical risks as part of the creditworthiness assessment. For corporate lending, institutions should evaluate the borrower's sector, business model resilience under climate scenarios, and any physical risk to assets and collateral. Sector-level risk classifications should identify high-risk sectors such as fossil fuels, carbon-intensive manufacturing, commercial real estate in flood zones, and agriculture exposed to drought. Credit monitoring should include tracking of climate-relevant indicators at portfolio level, such as portfolio emission intensity, proportion of lending to high-carbon sectors, and exposure to physically vulnerable geographies. The ECB expects institutions to develop counterparty-level climate risk scores or ratings that are integrated into existing internal rating systems or used as supplementary indicators. Concentration risk management should include limits on exposure to climate-sensitive sectors and geographies.",
+  "metadata": {
+    "ecb_expectations": ["E8"],
+    "keywords": ["credit risk", "credit granting", "counterparty risk", "sector classification", "concentration risk", "portfolio monitoring"]
+  }
+}

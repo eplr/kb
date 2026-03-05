@@ -1,0 +1,12 @@
+{
+  "chunk_id": "ecb_001",
+  "standard_id": "ecb-regulation",
+  "section": "overview",
+  "topic": "ECB Guide on Climate-Related and Environmental Risks — Overview",
+  "language": "en",
+  "content": "In November 2020, the European Central Bank (ECB) published its Guide on climate-related and environmental risks, setting out how it expects supervised institutions to integrate these risks within their existing prudential framework. The Guide is addressed primarily to significant institutions (SIs) directly supervised by the ECB under the Single Supervisory Mechanism (SSM), but it also serves as a reference for less significant institutions (LSIs) supervised by national competent authorities. The Guide contains 13 supervisory expectations organised into five categories: business environment (Expectations 1-2), business strategy (Expectations 3-4), governance and risk appetite (Expectations 5-6), risk management (Expectations 7-11), and disclosures (Expectations 12-13). The ECB views climate-related and environmental (C&E) risks not as a separate risk category but as drivers of existing prudential risk categories including credit risk, market risk, operational risk, liquidity risk and reputational risk. The Guide is non-binding but is used as a supervisory benchmark, with findings integrated into the Supervisory Review and Evaluation Process (SREP).",
+  "metadata": {
+    "ecb_expectations": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13"],
+    "keywords": ["ECB Guide", "overview", "climate-related risks", "environmental risks", "supervisory expectations", "SSM"]
+  }
+}
